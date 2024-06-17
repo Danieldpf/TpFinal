@@ -1,0 +1,12 @@
+D:\TpFinal\UTN_inc.Core.Entities\bin\Debug\net8.0\UTN_inc.Core.Entities.deps.json
+D:\TpFinal\UTN_inc.Core.Entities\bin\Debug\net8.0\UTN_inc.Core.Entities.dll
+D:\TpFinal\UTN_inc.Core.Entities\bin\Debug\net8.0\UTN_inc.Core.Entities.pdb
+D:\TpFinal\UTN_inc.Core.Entities\obj\Debug\net8.0\UTN_inc.Core.Entities.csproj.AssemblyReference.cache
+D:\TpFinal\UTN_inc.Core.Entities\obj\Debug\net8.0\UTN_inc.Core.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\TpFinal\UTN_inc.Core.Entities\obj\Debug\net8.0\UTN_inc.Core.Entities.AssemblyInfoInputs.cache
+D:\TpFinal\UTN_inc.Core.Entities\obj\Debug\net8.0\UTN_inc.Core.Entities.AssemblyInfo.cs
+D:\TpFinal\UTN_inc.Core.Entities\obj\Debug\net8.0\UTN_inc.Core.Entities.csproj.CoreCompileInputs.cache
+D:\TpFinal\UTN_inc.Core.Entities\obj\Debug\net8.0\UTN_inc.Core.Entities.dll
+D:\TpFinal\UTN_inc.Core.Entities\obj\Debug\net8.0\refint\UTN_inc.Core.Entities.dll
+D:\TpFinal\UTN_inc.Core.Entities\obj\Debug\net8.0\UTN_inc.Core.Entities.pdb
+D:\TpFinal\UTN_inc.Core.Entities\obj\Debug\net8.0\ref\UTN_inc.Core.Entities.dll

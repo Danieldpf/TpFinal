@@ -1,0 +1,17 @@
+D:\TpFinal\UTN_inc.Core.DataEF\bin\Debug\net8.0\UTN_inc.Core.DataEF.deps.json
+D:\TpFinal\UTN_inc.Core.DataEF\bin\Debug\net8.0\UTN_inc.Core.DataEF.dll
+D:\TpFinal\UTN_inc.Core.DataEF\bin\Debug\net8.0\UTN_inc.Core.DataEF.pdb
+D:\TpFinal\UTN_inc.Core.DataEF\bin\Debug\net8.0\UTN_inc.Core.Configuracion.dll
+D:\TpFinal\UTN_inc.Core.DataEF\bin\Debug\net8.0\UTN_inc.Core.Entities.dll
+D:\TpFinal\UTN_inc.Core.DataEF\bin\Debug\net8.0\UTN_inc.Core.Configuracion.pdb
+D:\TpFinal\UTN_inc.Core.DataEF\bin\Debug\net8.0\UTN_inc.Core.Entities.pdb
+D:\TpFinal\UTN_inc.Core.DataEF\obj\Debug\net8.0\UTN_inc.Core.DataEF.csproj.AssemblyReference.cache
+D:\TpFinal\UTN_inc.Core.DataEF\obj\Debug\net8.0\UTN_inc.Core.DataEF.GeneratedMSBuildEditorConfig.editorconfig
+D:\TpFinal\UTN_inc.Core.DataEF\obj\Debug\net8.0\UTN_inc.Core.DataEF.AssemblyInfoInputs.cache
+D:\TpFinal\UTN_inc.Core.DataEF\obj\Debug\net8.0\UTN_inc.Core.DataEF.AssemblyInfo.cs
+D:\TpFinal\UTN_inc.Core.DataEF\obj\Debug\net8.0\UTN_inc.Core.DataEF.csproj.CoreCompileInputs.cache
+D:\TpFinal\UTN_inc.Core.DataEF\obj\Debug\net8.0\UTN_inc..5A7490BB.Up2Date
+D:\TpFinal\UTN_inc.Core.DataEF\obj\Debug\net8.0\UTN_inc.Core.DataEF.dll
+D:\TpFinal\UTN_inc.Core.DataEF\obj\Debug\net8.0\refint\UTN_inc.Core.DataEF.dll
+D:\TpFinal\UTN_inc.Core.DataEF\obj\Debug\net8.0\UTN_inc.Core.DataEF.pdb
+D:\TpFinal\UTN_inc.Core.DataEF\obj\Debug\net8.0\ref\UTN_inc.Core.DataEF.dll

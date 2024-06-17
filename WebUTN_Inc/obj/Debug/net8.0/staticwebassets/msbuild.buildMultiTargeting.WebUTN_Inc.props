@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebUTN_Inc.props" />
+</Project>

@@ -1,0 +1,11 @@
+D:\TpFinal\UTN_inc.Core.Configuracion\bin\Debug\net8.0\UTN_inc.Core.Configuracion.deps.json
+D:\TpFinal\UTN_inc.Core.Configuracion\bin\Debug\net8.0\UTN_inc.Core.Configuracion.dll
+D:\TpFinal\UTN_inc.Core.Configuracion\bin\Debug\net8.0\UTN_inc.Core.Configuracion.pdb
+D:\TpFinal\UTN_inc.Core.Configuracion\obj\Debug\net8.0\UTN_inc.Core.Configuracion.GeneratedMSBuildEditorConfig.editorconfig
+D:\TpFinal\UTN_inc.Core.Configuracion\obj\Debug\net8.0\UTN_inc.Core.Configuracion.AssemblyInfoInputs.cache
+D:\TpFinal\UTN_inc.Core.Configuracion\obj\Debug\net8.0\UTN_inc.Core.Configuracion.AssemblyInfo.cs
+D:\TpFinal\UTN_inc.Core.Configuracion\obj\Debug\net8.0\UTN_inc.Core.Configuracion.csproj.CoreCompileInputs.cache
+D:\TpFinal\UTN_inc.Core.Configuracion\obj\Debug\net8.0\UTN_inc.Core.Configuracion.dll
+D:\TpFinal\UTN_inc.Core.Configuracion\obj\Debug\net8.0\refint\UTN_inc.Core.Configuracion.dll
+D:\TpFinal\UTN_inc.Core.Configuracion\obj\Debug\net8.0\UTN_inc.Core.Configuracion.pdb
+D:\TpFinal\UTN_inc.Core.Configuracion\obj\Debug\net8.0\ref\UTN_inc.Core.Configuracion.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "UTN_inc.Core.Configuracion/1.0.0": {
+        "runtime": {
+          "UTN_inc.Core.Configuracion.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UTN_inc.Core.Configuracion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

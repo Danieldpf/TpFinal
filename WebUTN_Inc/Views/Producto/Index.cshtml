@@ -1,0 +1,21 @@
+﻿@using UTN_inc.Core.Entities
+@model ProductoResult
+@{
+    ViewData["Title"] = "Productos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Productos</h1>
+
+<!-- lista de producto / tengo que indicar que el modelo de esta vista es una lista de producto / la indicacion es la siguiente model List<Producto> / esto se cambio a model ProductoResult -->
+<ul> 
+    <!--para acceder a la lista de la coleccion tenemos el Objeto Model que es de tipo List<Producto> / esto es asi porque esta lista esta tipada -->
+    @foreach (var p in Model.productos)
+    {
+        <!--Inyeccion de HTML-->
+        <li>item: @p.Nombre (@p.ProductoId)</li>
+        <!--Tipado en HTML  /   esto se puede hacer ya que usamos Razor que nos permite usar sintaxis C#-->
+    }
+
+   
+</ul>
