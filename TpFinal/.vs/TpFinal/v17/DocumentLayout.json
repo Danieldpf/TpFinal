@@ -3,22 +3,10 @@
   "WorkspaceRootPath": "D:\\TpFinal\\TpFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{913030D8-A33A-4586-8F7F-8C2C4140C98D}|..\\WebUTN_Inc\\WebUTN_Inc.csproj|d:\\tpfinal\\webutn_inc\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB3BC83B-8C4B-4823-AA63-D38CDD0F5BAD}|..\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj|d:\\tpfinal\\utn_inc.core.business\\productobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{913030D8-A33A-4586-8F7F-8C2C4140C98D}|..\\WebUTN_Inc\\WebUTN_Inc.csproj|d:\\tpfinal\\webutn_inc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AA2F347-E2D9-4AD9-9CDF-044ED2DC8959}|..\\UTN_inc.Core.Configuracion\\UTN_inc.Core.Configuracion.csproj|d:\\tpfinal\\utn_inc.core.configuracion\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FD40F6A3-A585-4901-8F50-4E178E143C14}|..\\UTN_inc.Core.DataEF\\UTN_inc.Core.DataEF.csproj|d:\\tpfinal\\utn_inc.core.dataef\\utn_inccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD40F6A3-A585-4901-8F50-4E178E143C14}|..\\UTN_inc.Core.DataEF\\UTN_inc.Core.DataEF.csproj|d:\\tpfinal\\utn_inc.core.dataef\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AA2F347-E2D9-4AD9-9CDF-044ED2DC8959}|..\\UTN_inc.Core.Configuracion\\UTN_inc.Core.Configuracion.csproj|d:\\tpfinal\\utn_inc.core.configuracion\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6C8934C-39DF-4ED9-90EF-F85D47507392}|TpFinal.csproj|d:\\tpfinal\\tpfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -28,16 +16,28 @@
       "AbsoluteMoniker": "D:0:0:{913030D8-A33A-4586-8F7F-8C2C4140C98D}|..\\WebUTN_Inc\\WebUTN_Inc.csproj|d:\\tpfinal\\webutn_inc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA4C78E0-66C2-4C55-8F1D-C32FF95F8983}|..\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj|d:\\tpfinal\\utn_inc.core.entities\\genericresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD40F6A3-A585-4901-8F50-4E178E143C14}|..\\UTN_inc.Core.DataEF\\UTN_inc.Core.DataEF.csproj|d:\\tpfinal\\utn_inc.core.dataef\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA4C78E0-66C2-4C55-8F1D-C32FF95F8983}|..\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj|d:\\tpfinal\\utn_inc.core.entities\\productoresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB3BC83B-8C4B-4823-AA63-D38CDD0F5BAD}|..\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj|d:\\tpfinal\\utn_inc.core.business\\productobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913030D8-A33A-4586-8F7F-8C2C4140C98D}|..\\WebUTN_Inc\\WebUTN_Inc.csproj|d:\\tpfinal\\webutn_inc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA4C78E0-66C2-4C55-8F1D-C32FF95F8983}|..\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj|d:\\tpfinal\\utn_inc.core.entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DA4C78E0-66C2-4C55-8F1D-C32FF95F8983}|..\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj|d:\\tpfinal\\utn_inc.core.entities\\productoresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA4C78E0-66C2-4C55-8F1D-C32FF95F8983}|..\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj|d:\\tpfinal\\utn_inc.core.entities\\genericresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{913030D8-A33A-4586-8F7F-8C2C4140C98D}|..\\WebUTN_Inc\\WebUTN_Inc.csproj|d:\\tpfinal\\webutn_inc\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913030D8-A33A-4586-8F7F-8C2C4140C98D}|..\\WebUTN_Inc\\WebUTN_Inc.csproj|d:\\tpfinal\\webutn_inc\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{913030D8-A33A-4586-8F7F-8C2C4140C98D}|..\\WebUTN_Inc\\WebUTN_Inc.csproj|d:\\tpfinal\\webutn_inc\\views\\producto\\detallesinternos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
@@ -50,152 +50,163 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "D:\\TpFinal\\UTN_inc.Core.Entities\\Producto.cs",
+              "RelativeDocumentMoniker": "..\\UTN_inc.Core.Entities\\Producto.cs",
+              "ToolTip": "D:\\TpFinal\\UTN_inc.Core.Entities\\Producto.cs",
+              "RelativeToolTip": "..\\UTN_inc.Core.Entities\\Producto.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwB0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T02:20:07.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "GenericResult.cs",
               "DocumentMoniker": "D:\\TpFinal\\UTN_inc.Core.Entities\\GenericResult.cs",
               "RelativeDocumentMoniker": "..\\UTN_inc.Core.Entities\\GenericResult.cs",
               "ToolTip": "D:\\TpFinal\\UTN_inc.Core.Entities\\GenericResult.cs",
               "RelativeToolTip": "..\\UTN_inc.Core.Entities\\GenericResult.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAD4vx0AAAAcAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T05:36:34.114Z"
+              "WhenOpened": "2024-06-15T05:36:34.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TpFinal\\TpFinal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\TpFinal\\TpFinal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T02:17:11.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\TpFinal\\WebUTN_Inc\\Program.cs",
               "RelativeDocumentMoniker": "..\\WebUTN_Inc\\Program.cs",
               "ToolTip": "D:\\TpFinal\\WebUTN_Inc\\Program.cs",
               "RelativeToolTip": "..\\WebUTN_Inc\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABWAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T12:59:03.026Z"
+              "WhenOpened": "2024-06-15T12:59:03.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TpFinal\\WebUTN_Inc\\Views\\Producto\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\WebUTN_Inc\\Views\\Producto\\Index.cshtml",
+              "ToolTip": "D:\\TpFinal\\WebUTN_Inc\\Views\\Producto\\Index.cshtml",
+              "RelativeToolTip": "..\\WebUTN_Inc\\Views\\Producto\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T14:15:54.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UTN_incContext.cs",
+              "DocumentMoniker": "D:\\TpFinal\\UTN_inc.Core.DataEF\\UTN_incContext.cs",
+              "RelativeDocumentMoniker": "..\\UTN_inc.Core.DataEF\\UTN_incContext.cs",
+              "ToolTip": "D:\\TpFinal\\UTN_inc.Core.DataEF\\UTN_incContext.cs",
+              "RelativeToolTip": "..\\UTN_inc.Core.DataEF\\UTN_incContext.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T02:22:33.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\TpFinal\\WebUTN_Inc\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\WebUTN_Inc\\appsettings.json",
+              "ToolTip": "D:\\TpFinal\\WebUTN_Inc\\appsettings.json",
+              "RelativeToolTip": "..\\WebUTN_Inc\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-15T18:55:40.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "D:\\TpFinal\\UTN_inc.Core.DataEF\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "..\\UTN_inc.Core.DataEF\\ProductoRepository.cs",
+              "ToolTip": "D:\\TpFinal\\UTN_inc.Core.DataEF\\ProductoRepository.cs",
+              "RelativeToolTip": "..\\UTN_inc.Core.DataEF\\ProductoRepository.cs",
+              "ViewState": "AQIAAMsAAAAAAAAAAAAAwNAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T02:20:28.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Config.cs",
+              "DocumentMoniker": "D:\\TpFinal\\UTN_inc.Core.Configuracion\\Config.cs",
+              "RelativeDocumentMoniker": "..\\UTN_inc.Core.Configuracion\\Config.cs",
+              "ToolTip": "D:\\TpFinal\\UTN_inc.Core.Configuracion\\Config.cs",
+              "RelativeToolTip": "..\\UTN_inc.Core.Configuracion\\Config.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T16:43:58.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductoBusiness.cs",
+              "DocumentMoniker": "D:\\TpFinal\\UTN_inc.Core.Business\\ProductoBusiness.cs",
+              "RelativeDocumentMoniker": "..\\UTN_inc.Core.Business\\ProductoBusiness.cs",
+              "ToolTip": "D:\\TpFinal\\UTN_inc.Core.Business\\ProductoBusiness.cs",
+              "RelativeToolTip": "..\\UTN_inc.Core.Business\\ProductoBusiness.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAuwGwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T02:20:43.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "D:\\TpFinal\\WebUTN_Inc\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "..\\WebUTN_Inc\\Controllers\\ProductoController.cs",
               "ToolTip": "D:\\TpFinal\\WebUTN_Inc\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "..\\WebUTN_Inc\\Controllers\\ProductoController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwB0AAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T13:38:42.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductoBusiness.cs",
-              "DocumentMoniker": "D:\\TpFinal\\UTN_inc.Core.Business\\ProductoBusiness.cs",
-              "RelativeDocumentMoniker": "..\\UTN_inc.Core.Business\\ProductoBusiness.cs",
-              "ToolTip": "D:\\TpFinal\\UTN_inc.Core.Business\\ProductoBusiness.cs",
-              "RelativeToolTip": "..\\UTN_inc.Core.Business\\ProductoBusiness.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwHwAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T02:20:43.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductoRepository.cs",
-              "DocumentMoniker": "D:\\TpFinal\\UTN_inc.Core.DataEF\\ProductoRepository.cs",
-              "RelativeDocumentMoniker": "..\\UTN_inc.Core.DataEF\\ProductoRepository.cs",
-              "ToolTip": "D:\\TpFinal\\UTN_inc.Core.DataEF\\ProductoRepository.cs",
-              "RelativeToolTip": "..\\UTN_inc.Core.DataEF\\ProductoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKgAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T02:20:28.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\TpFinal\\TpFinal\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\TpFinal\\TpFinal\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T02:17:11.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UTN_incContext.cs",
-              "DocumentMoniker": "D:\\TpFinal\\UTN_inc.Core.DataEF\\UTN_incContext.cs",
-              "RelativeDocumentMoniker": "..\\UTN_inc.Core.DataEF\\UTN_incContext.cs",
-              "ToolTip": "D:\\TpFinal\\UTN_inc.Core.DataEF\\UTN_incContext.cs",
-              "RelativeToolTip": "..\\UTN_inc.Core.DataEF\\UTN_incContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T02:22:33.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Config.cs",
-              "DocumentMoniker": "D:\\TpFinal\\UTN_inc.Core.Configuracion\\Config.cs",
-              "RelativeDocumentMoniker": "..\\UTN_inc.Core.Configuracion\\Config.cs",
-              "ToolTip": "D:\\TpFinal\\UTN_inc.Core.Configuracion\\Config.cs",
-              "RelativeToolTip": "..\\UTN_inc.Core.Configuracion\\Config.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T16:43:58.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\TpFinal\\WebUTN_Inc\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\WebUTN_Inc\\appsettings.json",
-              "ToolTip": "D:\\TpFinal\\WebUTN_Inc\\appsettings.json",
-              "RelativeToolTip": "..\\WebUTN_Inc\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-15T18:55:40.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "D:\\TpFinal\\UTN_inc.Core.Entities\\Producto.cs",
-              "RelativeDocumentMoniker": "..\\UTN_inc.Core.Entities\\Producto.cs",
-              "ToolTip": "D:\\TpFinal\\UTN_inc.Core.Entities\\Producto.cs",
-              "RelativeToolTip": "..\\UTN_inc.Core.Entities\\Producto.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABAAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T02:20:07.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "ProductoResult.cs",
               "DocumentMoniker": "D:\\TpFinal\\UTN_inc.Core.Entities\\ProductoResult.cs",
               "RelativeDocumentMoniker": "..\\UTN_inc.Core.Entities\\ProductoResult.cs",
               "ToolTip": "D:\\TpFinal\\UTN_inc.Core.Entities\\ProductoResult.cs",
               "RelativeToolTip": "..\\UTN_inc.Core.Entities\\ProductoResult.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAQwBQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T02:24:18.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\TpFinal\\WebUTN_Inc\\Views\\Producto\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\WebUTN_Inc\\Views\\Producto\\Index.cshtml",
-              "ToolTip": "D:\\TpFinal\\WebUTN_Inc\\Views\\Producto\\Index.cshtml",
-              "RelativeToolTip": "..\\WebUTN_Inc\\Views\\Producto\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T14:15:54.23Z"
+              "WhenOpened": "2024-06-15T02:24:18.815Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -207,7 +218,8 @@
               "RelativeToolTip": "..\\WebUTN_Inc\\Views\\Producto\\DetallesInternos.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T14:27:57.865Z"
+              "WhenOpened": "2024-06-15T14:27:57.865Z",
+              "EditorCaption": ""
             }
           ]
         }

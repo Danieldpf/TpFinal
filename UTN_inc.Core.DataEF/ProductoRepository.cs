@@ -127,6 +127,14 @@ namespace UTN_inc.Core.DataEF
 
 
         //Codigo Franco
+        //private readonly Config _config;
+        
+
+        //public ProductoRepository(Config config)
+        //{
+        //    _config = config;
+        //}
+
         private readonly Config _config;
 
         public ProductoRepository(Config config)
@@ -135,11 +143,11 @@ namespace UTN_inc.Core.DataEF
         }
 
 
-        //Probando COnsola
-        public ProductoRepository()
-        {
-            _config = new Config();
-        }
+        /* //Probando COnsola
+         public ProductoRepository()
+         {
+             _config = new Config();
+         }*/
 
 
         public void ProductoCreate(Producto producto)
@@ -151,12 +159,13 @@ namespace UTN_inc.Core.DataEF
                             select p);
                 if (prod.Any())
                 {
-                    GenericResult<List<Producto>>.Error();
+                    GenericResult<List<Producto>>.Error("Nombre existente");
                 }
                 else
                 {
                     db.productos.Add(producto);
                     db.SaveChanges();
+                    GenericResult<Producto>.Ok(producto, "Borrado");
                 }
             }
         }
@@ -172,19 +181,41 @@ namespace UTN_inc.Core.DataEF
                 if (productos.Any())
                 {
                     // Si hay productos disponibles, retornamos un resultado exitoso con la lista de productos.
-                    return new GenericResult<List<Producto>>(productos);
+                    return GenericResult<List<Producto>>.Ok(productos,"");
                 }
                 else
                 {
                     // Si no hay productos disponibles, retornamos un resultado no exitoso.
-                    return GenericResult<List<Producto>>.Error();
+                    return GenericResult<List<Producto>>.Error("Vacio");
                 }
             }
         }
 
 
 
-        public void ProductoDelete(Producto producto)
+        public GenericResult<Producto> ProductoDelete(Producto producto)
+        {
+            using (var db = new UTN_incContext(_config))
+            {
+                var prod = (from p in db.productos
+                            where p.ProductoId == producto.ProductoId
+                            select p);
+                if (prod.Any())
+                {
+                    return GenericResult<Producto>.Error("No existe el elemento");
+                }
+                else
+                {
+
+                    db.productos.Remove(producto);
+                    db.SaveChanges();
+                    return GenericResult<Producto>.Ok(producto, "Borrado");
+                }
+            }
+        }
+
+        /*
+         public GenericResult<Producto> ProductoDelete(Producto producto)
         {
             using (var db = new UTN_incContext(_config))
             {
@@ -193,15 +224,18 @@ namespace UTN_inc.Core.DataEF
                             select p);
                 if (prod.Any())
                 {
-                    GenericResult<List<Producto>>.Error();
+                    return GenericResult<Producto>.Error("No existe el elemento");
                 }
                 else
                 {
+                    
                     db.productos.Remove(producto);
                     db.SaveChanges();
+                    return GenericResult<Producto>.Ok(producto, "Borrado");
                 }
             }
         }
+         */
 
 
         public GenericResult<Producto> ProductoGet(int productoId)
@@ -215,12 +249,12 @@ namespace UTN_inc.Core.DataEF
                 if (prod != null)
                 {
                     // Si el producto se encuentra, retornamos un resultado exitoso.
-                    return new GenericResult<Producto>(prod);
+                    return GenericResult<Producto>.Ok(prod,"Exito");
                 }
                 else
                 {
                     // Si el producto no se encuentra, retornamos un resultado no exitoso.
-                    return GenericResult<Producto>.Error();
+                    return GenericResult<Producto>.Error("No existe");
                 }
             }
 
@@ -288,7 +322,7 @@ namespace UTN_inc.Core.DataEF
 
                 if (existingProduct == null)
                 {
-                    return GenericResult<Producto>.Error();
+                    return GenericResult<Producto>.Error("No existe");
                 }
 
                 // Verificar si el nombre del producto está duplicado
@@ -297,7 +331,7 @@ namespace UTN_inc.Core.DataEF
 
                 if (duplicateProduct != null)
                 {
-                    return GenericResult<Producto>.Error();
+                    return GenericResult<Producto>.Error("Nombre duplicado");
                 }
 
                 // Actualizar los campos específicos del producto
@@ -309,7 +343,7 @@ namespace UTN_inc.Core.DataEF
                 db.Entry(existingProduct).State = EntityState.Modified;
                 db.SaveChanges();
 
-                return null;
+                return GenericResult<Producto>.Ok(producto, "Exito");
             }
         }
     }

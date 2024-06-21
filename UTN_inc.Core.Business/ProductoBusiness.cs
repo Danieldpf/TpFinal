@@ -66,28 +66,44 @@ namespace UTN_inc.Core.Business
         // se encarga de trar de la vuente de datos o llevar los objetos como ProductoBusiness(esto hay que ver bien si es asi)
         private readonly ProductoRepository _productoRepository;
 
+        private readonly Config _config;
 
+        //*************Agregue el constructor de abajo y comente este
         public ProductoBusiness()
         {
             // temporal hasta hacer inyeccion de dependencias
-            _productoRepository = new ProductoRepository();
+            _productoRepository = new ProductoRepository(_config);
         }
+        //*********************************************************
+
+        public ProductoBusiness(ProductoRepository productoRepository)
+        {
+
+            _productoRepository = productoRepository;
+        }
+
 
         //devuelve el listado de producto
         public GenericResult<List<Producto>> GetAll()
         {
             var result = _productoRepository.ProductoGetAll();
 
-            if (result.OK)
+            if (result != null)
             {
                 // Si el resultado es exitoso, retornamos el resultado tal cual.
+                //foreach (var item in result.productos)
+                //{
+                //    Console.WriteLine(item.ToString());
+                //}
                 return result;
             }
             else
             {
                 // Si el resultado no es exitoso, retornamos un resultado con error.
-                return GenericResult<List<Producto>>.Error();
+                return GenericResult<List<Producto>>.Error("Hubo un error");
             }
+
+            return result;
         }
         public void DeleteAsync(Producto producto)
         {
@@ -100,7 +116,7 @@ namespace UTN_inc.Core.Business
 
             var result = _productoRepository.ProductoGet(productoId);
 
-            return result.Value;
+            return result.Data;
 
         }
 

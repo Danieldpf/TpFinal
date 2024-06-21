@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace UTN_inc.Core.Entities
 {
-    public class GenericResult
-    {
-        public string Mensaje { get; set; }
+    //public class GenericResult
+    //{
+    //    public string Mensaje { get; set; }
 
-        public bool EsExitoso { get; set; }
+    //    public bool EsExitoso { get; set; }
 
-        public bool TieneError { get; set; }
-    }
+    //    public bool TieneError { get; set; }
+    //}
 
 
 
@@ -25,23 +25,50 @@ namespace UTN_inc.Core.Entities
     // Lo realizamos con objetos de tipo generic.
     public class GenericResult<T>
     {
+        public bool Success { get; set; }
+        public T Data { get; set; }
+        public string Message { get; set; }
+        public List<string> Errores { get; set; }
+
+        public List<Producto> productos { get; set; }
+
 
         //Constructor de la clase
-        public GenericResult(T value)
+        public GenericResult()
         {
-            Value = value;
+            Errores = new List<string>();
+            productos = new List<Producto>();
         }
 
-        //Constructor que se le asigna la propiedad OK para utilizar luego como falsa
-        public GenericResult(bool OK = false) { this.OK = OK; }
-        // Almacena el valor de tipo generico
-        public T Value { get; }
-        // Tipo generico de exitoso
-        public bool OK { get; } = true;
-        // Tipo generico de error
-        public static GenericResult<T> Error() { return new GenericResult<T>(false); }
+        
+
+
+        public static GenericResult<T> Ok(T data, string message = "")
+        {
+            return new GenericResult<T>
+            {
+                Success = true,
+                Data = data,
+                Message = message
+            };
+        }
+
+
+        public static GenericResult<T> Error(string message, List<string> errores = null)
+        {
+            return new GenericResult<T>
+            {
+                Success = false,
+                Errores = errores,
+                Message = message
+            };
+        }
+
+       
 
 
         //********************************************************
     }
+
+    
 }

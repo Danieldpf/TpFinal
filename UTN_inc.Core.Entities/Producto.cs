@@ -27,7 +27,7 @@ namespace UTN_inc.Core.Entities
         public int ProductoId { get; set; }
         public string Nombre { get; set; }
         public int CategoriaId { get; set; }
-        public int Habilitado { get; set; }
+        public bool Habilitado { get; set; }
         
         public override string ToString()
         {
