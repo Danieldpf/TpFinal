@@ -19,24 +19,12 @@ namespace UTN_inc.Core.DataEF
                                         //Inyecion 
 
 
-
-        public UTN_incContext():base()
-        {
-           
-        }
-
-        public UTN_incContext(DbContextOptions<UTN_incContext> options) : base()
-        {
-
-        }
-
-
-        /*
+        
         public UTN_incContext(Config config)//cuando se crea un repo hay que pasarle la congiguracion
         {
             _config = config;//esto toma el valor que le pasemos por configuracion 
         }
-        */
+        
 
 
         //esto mapea el nombre de una tabla que se llame asi en mi BD
@@ -46,6 +34,14 @@ namespace UTN_inc.Core.DataEF
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(CONNECTIONSTRING);//que use SqlServer porque es el que tenemos instalado / paso el conecctionString por configuracion
+            //optionsBuilder.UseSqlServer(_config.ConnectionString);
+        }
+
+
+        //DUDOSO
+        protected void OnConfiguring2(DbContextOptionsBuilder optionsBuilder2)
+        {
+            optionsBuilder2.UseSqlServer(_config.ConnectionString);
         }
 
         /*

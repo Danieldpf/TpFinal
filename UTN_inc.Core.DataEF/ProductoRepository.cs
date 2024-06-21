@@ -126,15 +126,6 @@ namespace UTN_inc.Core.DataEF
 
 
 
-        //Codigo Franco
-        //private readonly Config _config;
-        
-
-        //public ProductoRepository(Config config)
-        //{
-        //    _config = config;
-        //}
-
         private readonly Config _config;
 
         public ProductoRepository(Config config)
@@ -142,12 +133,6 @@ namespace UTN_inc.Core.DataEF
             _config = config;
         }
 
-
-        /* //Probando COnsola
-         public ProductoRepository()
-         {
-             _config = new Config();
-         }*/
 
 
         public void ProductoCreate(Producto producto)
@@ -181,35 +166,55 @@ namespace UTN_inc.Core.DataEF
                 if (productos.Any())
                 {
                     // Si hay productos disponibles, retornamos un resultado exitoso con la lista de productos.
-                    return GenericResult<List<Producto>>.Ok(productos,"");
+                    return GenericResult<List<Producto>>.Ok(productos,"Exito");
                 }
                 else
                 {
                     // Si no hay productos disponibles, retornamos un resultado no exitoso.
-                    return GenericResult<List<Producto>>.Error("Vacio");
+                    return GenericResult<List<Producto>>.Error("Error Vacio");
+                }
+            }
+        }
+
+        public GenericResult<List<Producto>> ProductoGetAll2()
+        {
+            using (var db = new UTN_incContext(_config))
+            {
+                var productos = (from p in db.productos
+                                 select p).ToList();
+
+                if (productos.Any())
+                {
+                    // Si hay productos disponibles, retornamos un resultado exitoso con la lista de productos.
+                    return GenericResult<List<Producto>>.Ok(productos, "Exito");
+                    
+                }
+                else
+                {
+                    // Si no hay productos disponibles, retornamos un resultado no exitoso.
+                    return GenericResult<List<Producto>>.Error("Error Vacio");
                 }
             }
         }
 
 
 
-        public GenericResult<Producto> ProductoDelete(Producto producto)
+        public GenericResult<Producto> ProductoDelete(int productoId)
         {
             using (var db = new UTN_incContext(_config))
             {
                 var prod = (from p in db.productos
-                            where p.ProductoId == producto.ProductoId
-                            select p);
-                if (prod.Any())
+                            where p.ProductoId == productoId
+                            select p).FirstOrDefault();
+                if (prod != null)
                 {
-                    return GenericResult<Producto>.Error("No existe el elemento");
+                    db.productos.Remove(prod);
+                    db.SaveChanges();
+                    return GenericResult<Producto>.Ok(prod, "Borrado");
                 }
                 else
                 {
-
-                    db.productos.Remove(producto);
-                    db.SaveChanges();
-                    return GenericResult<Producto>.Ok(producto, "Borrado");
+                    return GenericResult<Producto>.Error("No existe el elemento");
                 }
             }
         }
@@ -346,6 +351,9 @@ namespace UTN_inc.Core.DataEF
                 return GenericResult<Producto>.Ok(producto, "Exito");
             }
         }
+
+
+
     }
 
 }

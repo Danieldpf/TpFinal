@@ -102,13 +102,27 @@ namespace UTN_inc.Core.Business
                 // Si el resultado no es exitoso, retornamos un resultado con error.
                 return GenericResult<List<Producto>>.Error("Hubo un error");
             }
-
-            return result;
         }
-        public void DeleteAsync(Producto producto)
+
+        public List<Producto> GetAll2()
+        {
+
+            var result = _productoRepository.ProductoGetAll2().Data;
+            
+            if (result != null)
+            {
+                return result;
+            }
+            else
+            {
+                return result;
+            }
+        }
+
+        public GenericResult<Producto> DeleteAsync(int productoId)
         {
             //esto es lo que tiene el acceso a datos
-            _productoRepository.ProductoDelete(producto);
+            return _productoRepository.ProductoDelete(productoId);
         }
 
         public Producto GetProducto(int productoId)
@@ -135,9 +149,9 @@ namespace UTN_inc.Core.Business
         }
         */
 
-        public GenericResult<Producto> Update(Producto producto)
+        public GenericResult<Producto> UpdateBusiness(Producto productoID)
         {
-            var result = _productoRepository.ProductoUpdate(producto);
+            var result = _productoRepository.ProductoUpdate(productoID);
             return result;
         }
 

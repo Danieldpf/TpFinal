@@ -3,7 +3,6 @@ using Microsoft.Extensions.Configuration;
 using UTN_inc.Core.Business;
 using UTN_inc.Core.Configuracion;
 using UTN_inc.Core.Entities;
-using static System.Collections.Immutable.ImmutableArray<T>;
 
 Console.WriteLine("Hello, World!");
 
@@ -33,44 +32,51 @@ Console.WriteLine("Hello, World!");
 
 var productoBusiness = new ProductoBusiness();
 
-Console.WriteLine("Lista!");
+Console.WriteLine("GetAll Lista!");
 List(productoBusiness);
+
+Console.WriteLine("Getall2 Lista!");
+ListVoid(productoBusiness);
 
 //var result = jediBusiness.DeleteAsync(9);//Borrado
 
-Console.WriteLine("Obtenido!");
-var jedi3 = productoBusiness.GetProducto(1003);//obtener
-Console.WriteLine("Obtenido! "+ jedi3.ToString());
+//Console.WriteLine("Obtenido!");
+//var jedi3 = productoBusiness.GetProducto(1006);//obtener//FUNCIONA
+//Console.WriteLine("Obtenido! "+ jedi3.ToString());
 
-Console.WriteLine("Modificado!");
-jedi3.Nombre = jedi3.Nombre + "ARG";//modificar
-var result = productoBusiness.Update(jedi3);//cargar
+//Console.WriteLine("Modificado!");//FUNCIONA
+//jedi3.Nombre = jedi3.Nombre + "??";//modificar
+//var result = productoBusiness.UpdateBusiness(jedi3);//cargar
 
-Console.WriteLine("Eliminado!");
-Console.WriteLine(productoBusiness.ToString());
-//var result = productoBusiness.DeleteAsync(jedi3);//NO anda
-Console.WriteLine(productoBusiness.ToString());
-Console.WriteLine("Lista nueva! / id 1002 tiene un ARG nuevo / id 1004 eliminado");
+//Console.WriteLine("Eliminado!");
+////var resultDelete = productoBusiness.DeleteAsync(1005);//FUNCIONA
+//Console.WriteLine("Lista nueva! / id 1002 tiene un ARG nuevo / id 1004 eliminado");
 
-List(productoBusiness);
+//List(productoBusiness);
 
 Console.WriteLine("END!");
 
-static GenericResult<List<Producto>> List(ProductoBusiness productoBusiness)
+static void List(ProductoBusiness productoBusiness)
 {
-    var jedisResult = productoBusiness.GetAll();
-
-    //if (jedisResult.HasError)
-    //{
-    //    Console.WriteLine($"ERROR: {jedisResult.Message}");
-    //}
-    //else
-    //{
-    foreach (var item in jedisResult.productos)
+    var list = productoBusiness.GetAll().Data;
+    
+    foreach (var item in list)
     {
         Console.WriteLine(item.ToString());
     }
-    return jedisResult;
+
+}
+
+static void ListVoid(ProductoBusiness productoBusiness)
+{
+    var jedisResult = productoBusiness.GetAll2();
+    
+    foreach (var item in jedisResult)
+    {
+        Console.WriteLine(item.ToString());
+    }
+
+    
 }
 
 
