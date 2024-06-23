@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using UTN_inc.Core.Business;
+using UTN_inc.Core.Entities;
 using WebUTN_Inc.Models;
 
 namespace WebUTN_Inc.Controllers
@@ -9,13 +11,15 @@ namespace WebUTN_Inc.Controllers
     {
         private readonly ILogger<ProductoController> _logger;
         private readonly ProductoBusiness _productoBusiness;
+        private readonly CategoriaBusiness _categoriaBusiness;
 
-        public ProductoController(ProductoBusiness productoBusiness,//inyeccion
+        public ProductoController(ProductoBusiness productoBusiness,
+                                    CategoriaBusiness categoriaBusiness,
                                     ILogger<ProductoController> logger)//recibe ejecuta y va a la accion que diga la ruta / ProductoController -> _productoBusiness = new ProductoBusiness(); -> IActionResult Index()
         {
             _logger = logger;
             _productoBusiness = productoBusiness;
-
+            _categoriaBusiness = categoriaBusiness;
 
             //Todo Inyeccion de dependencias
             //_productoBusiness = new ProductoBusiness();// en el constructor ya crea para no estar creando aca a cada rato
@@ -25,14 +29,29 @@ namespace WebUTN_Inc.Controllers
         public IActionResult Index()
         {   //esto es el modelo / el modelo no simpre tiene que estar en la carpeta modelo  / entities es el modelo
             var productos = _productoBusiness.GetAll();// y aca se encarga la capa de negocios y la de datos de traer de donde tenga que hacerlo
-            return View(productos);//otra sobrecarga que maneja View es que se le puede pasar el modelo
+            var categorias = _categoriaBusiness.GetAll();
+
+            var categoriaDic = categorias.Data.ToDictionary(c => c.CategoriaId);
+
+            foreach (var prod in productos.Data)
+            {
+                if (categoriaDic.ContainsKey(prod.CategoriaId))
+                {
+                    //prod.NombreCategoria = categoriaDic[prod.CategoriaId].NombreCategoria;
+                }
+            }
+
+            var result = new {Producto = productos, Categoria = categorias};
+
+            return View(result);//otra sobrecarga que maneja View es que se le puede pasar el modelo
+
         }
 
-        public IActionResult Index2()
-        {   //esto es el modelo / el modelo no simpre tiene que estar en la carpeta modelo  / entities es el modelo
-            var productos = _productoBusiness.GetProducto(1);
-            return View(_productoBusiness.Update(productos));//otra sobrecarga que maneja View es que se le puede pasar el modelo
-        }
+        //public IActionResult Index2()
+        //{   //esto es el modelo / el modelo no simpre tiene que estar en la carpeta modelo  / entities es el modelo
+        //   // var productos = _productoBusiness.GetProducto(1);
+        //   // return View(_productoBusiness.Update(productos));//otra sobrecarga que maneja View es que se le puede pasar el modelo
+        //}
 
         //estos ruteos se pueden comentar no afecta en nada. si alguno de los 2 da error comentar o borrar
         [Route("/detalles-internos")]//de esta manera soporta que se los llame con estos nombres en la web / es una menera de definir rutas

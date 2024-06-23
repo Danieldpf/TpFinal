@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\UTN_inc.Core.Business\UTN_inc.Core.Business.csproj" />
     <ProjectReference Include="..\UTN_inc.Core.Entities\UTN_inc.Core.Entities.csproj" />
+    <ProjectReference Include="..\WebUTN_Inc\WebUTN_Inc.csproj" />
   </ItemGroup>
 
 </Project>

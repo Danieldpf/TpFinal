@@ -7,60 +7,6 @@ namespace UTN_inc.Core.Business
 {
     public class ProductoBusiness
     {
-      
-
-
-            //clase privada que esta en la capa de datos
-
-            // se encarga de trar de la vuente de datos o llevar los objetos como ProductoBusiness(esto hay que ver bien si es asi)
-        /*    private readonly ProductoRepository _productoRepository;
-
-
-
-        //Prueba Consola
-        public ProductoBusiness()
-        {
-            // temporal hasta hacer inyeccion de dependencias
-            _productoRepository = new ProductoRepository();
-        }
-
-        public ProductoBusiness(ProductoRepository productoRepository)
-        {
-            // temporal hasta hacer inyeccion de dependencias
-            _productoRepository = productoRepository;
-        }
-
-        //devuelve el listado de producto
-        public ProductoResult GetAll()
-        {
-            //esto es lo que tiene el acceso a datos
-            return _productoRepository.GetAll();
-        }
-
-
-        public GenericResult DeleteAsync(int productoId)
-        {
-            //esto es lo que tiene el acceso a datos
-            return _productoRepository.DeleteAsync(productoId);
-        }
-
-        public Producto GetAsync(int productoId)
-        {
-            //esto es lo que tiene el acceso a datos
-            return _productoRepository.GetAsync(productoId);
-        }
-
-
-        public GenericResult UpdateAsync(Producto producto)
-        {
-            //esto es lo que tiene el acceso a datos
-            return _productoRepository.UpdateAsync(producto);
-        }
-        */
-
-
-        //********************************************************************
-        //Agregado Franco
         //clase privada que esta en la capa de datos
 
         // se encarga de trar de la vuente de datos o llevar los objetos como ProductoBusiness(esto hay que ver bien si es asi)
@@ -90,11 +36,6 @@ namespace UTN_inc.Core.Business
 
             if (result != null)
             {
-                // Si el resultado es exitoso, retornamos el resultado tal cual.
-                //foreach (var item in result.productos)
-                //{
-                //    Console.WriteLine(item.ToString());
-                //}
                 return result;
             }
             else
@@ -125,6 +66,7 @@ namespace UTN_inc.Core.Business
             return _productoRepository.ProductoDelete(productoId);
         }
 
+
         public Producto GetProducto(int productoId)
         {
 
@@ -134,35 +76,26 @@ namespace UTN_inc.Core.Business
 
         }
 
-        /*
-        public GenericResult<Producto> UpdateAsync(int productoId)
+        public void CrearProductoBusiness(Producto producto)
         {
-            //esto es lo que tiene el acceso a datos
-            /*var result = _productoRepository.ProductoUpdate(producto.ProductoId);
-            return result;
-
-            var result = _productoRepository.ProductoUpdate(productoId);
-
-            
-            
-
+            _productoRepository.CrearProductoRepo(producto);
         }
-        */
 
-        public GenericResult<Producto> UpdateBusiness(Producto productoID)
+       
+        public GenericResult<Producto> UpdateBusiness(Producto productoID)//esto esta raro
         {
             var result = _productoRepository.ProductoUpdate(productoID);
             return result;
         }
 
-        //********************************************************************
+        public List<Producto> ProductosEnUnaCategoriaBusiness(int categoriaId)
+        {
+            var result = _productoRepository.ProductosEnUnaCategoria(categoriaId);
+            return result.Data;
+        }
 
+        
 
     }
 }
 
-
-/*
- el rerpositorio es un patron
-
- */

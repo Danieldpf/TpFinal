@@ -1,14 +1,16 @@
 ﻿@using UTN_inc.Core.Entities
-@model GenericResult<List<Producto>>
+@* @model GenericResult<List<Producto>> *@
+@model dynamic
 @{
     ViewData["Title"] = "Productos";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    
 }
 
 <h1>Productos</h1>
 
 <!-- lista de producto / tengo que indicar que el modelo de esta vista es una lista de producto / la indicacion es la siguiente model List<Producto> / esto se cambio a model ProductoResult -->
-<ul> 
+@* <ul> 
 
 
     <!--para acceder a la lista de la coleccion tenemos el Objeto Model que es de tipo List<Producto> / esto es asi porque esta lista esta tipada -->
@@ -25,4 +27,30 @@
     <h2>Prueba</h2>
 
    
-</ul>
+</ul> *@
+
+
+
+<h1>Lista de Productos y Categoria</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Categoría</th>
+            <th>Habilitado</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var producto in Model.aaaaaaaa)
+        {
+            <tr>
+                <td>@producto.ProductoId</td>
+                <td>@producto.Nombre</td>
+                <td>@producto.NombreCategoria</td>
+                <td>@producto.Habilitado</td>
+            </tr>
+        }
+    </tbody>
+</table>

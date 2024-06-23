@@ -6,20 +6,6 @@ using System.Threading.Tasks;
 
 namespace UTN_inc.Core.Entities
 {
-    //public class GenericResult
-    //{
-    //    public string Mensaje { get; set; }
-
-    //    public bool EsExitoso { get; set; }
-
-    //    public bool TieneError { get; set; }
-    //}
-
-
-
-    //********************************************************
-    //          Agregado de Franco
-
 
     // Creamos un tipo generico de resultados, asi no tenemos que estar generando resultados para cada caso en especifico.
     // Lo realizamos con objetos de tipo generic.
@@ -65,10 +51,6 @@ namespace UTN_inc.Core.Entities
         }
 
        
-
-
-        //********************************************************
     }
 
-    
 }

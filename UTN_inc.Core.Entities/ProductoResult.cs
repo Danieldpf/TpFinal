@@ -16,10 +16,5 @@ namespace UTN_inc.Core.Entities
 
         public bool esError { get; set; }
 
-
-
-
-
-
-        }
+    }
 }
