@@ -70,7 +70,7 @@ namespace UTN_inc.Core.DataEF
                 fecha = fechaCompra,
                 productoId = productos.Data.ProductoId,
                 cantidad = cantidad,
-                usuarioId = 1
+                usuarioId = UsuarioGlobal.GetUsuario()
 
             };
             

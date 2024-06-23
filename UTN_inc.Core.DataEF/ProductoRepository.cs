@@ -17,6 +17,7 @@ namespace UTN_inc.Core.DataEF
             _config = config;
         }
 
+        
 
         //Crear Producto --->> hacer que funcione
         public void CrearProductoRepo(Producto producto)
@@ -38,6 +39,7 @@ namespace UTN_inc.Core.DataEF
                     GenericResult<Producto>.Ok(producto, "Exito al Crear");
                     Console.WriteLine("Exito al Crear");
                 }
+
             }
         }
 
