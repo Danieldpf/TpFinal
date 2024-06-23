@@ -7861,11 +7861,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TpFinal\\TpFinal\\TpFinal.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\TpFinal\\TpFinal\\TpFinal.csproj",
       "projectName": "TpFinal",
-      "projectPath": "D:\\TpFinal\\TpFinal\\TpFinal.csproj",
+      "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\TpFinal\\TpFinal.csproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "D:\\TpFinal\\TpFinal\\obj\\",
+      "outputPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\TpFinal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7882,14 +7882,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\TpFinal\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj": {
-              "projectPath": "D:\\TpFinal\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj"
+            "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj"
             },
-            "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj": {
-              "projectPath": "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj"
+            "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj"
             },
-            "D:\\TpFinal\\WebUTN_Inc\\WebUTN_Inc.csproj": {
-              "projectPath": "D:\\TpFinal\\WebUTN_Inc\\WebUTN_Inc.csproj"
+            "C:\\Users\\Daniel\\Desktop\\TpFinal\\WebUTN_Inc\\WebUTN_Inc.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\WebUTN_Inc\\WebUTN_Inc.csproj"
             }
           }
         }

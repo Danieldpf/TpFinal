@@ -31,6 +31,7 @@ Console.WriteLine("Hello, World!");
 
 //la idea es que la consola o app llame a la capa de business / business tiene que obtener los datos de un repoitorio 
 
+Console.WriteLine("soasdadasd");
 
 var comprabusiness = new CompraBusiness();
 

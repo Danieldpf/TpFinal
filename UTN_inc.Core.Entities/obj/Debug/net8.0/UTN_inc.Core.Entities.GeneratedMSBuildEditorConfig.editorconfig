@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UTN_inc.Core.Entities
-build_property.ProjectDir = D:\TpFinal\UTN_inc.Core.Entities\
+build_property.ProjectDir = C:\Users\Daniel\Desktop\TpFinal\UTN_inc.Core.Entities\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
