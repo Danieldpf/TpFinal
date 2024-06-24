@@ -36,6 +36,10 @@ Console.WriteLine("Hello, World!");
 
 comprabusiness.CrearCompraBusiness();*/
 
+
+
+
+
 Menu();
 
 /*
@@ -98,7 +102,7 @@ static void ListaProductos(ProductoBusiness productoBusiness)
     }
     Console.WriteLine("Traer la lista fue "+message);
 }
-
+/*
 static void ListVoid(ProductoBusiness productoBusiness, CategoriaBusiness categoriaBusiness)
 {
     var ListProductos = productoBusiness.GetAll2();
@@ -120,7 +124,7 @@ static void ListVoid(ProductoBusiness productoBusiness, CategoriaBusiness catego
 
     
 }
-
+*/
 
 static void GetCategoria(CategoriaBusiness categoriaBusiness)
 {
@@ -156,8 +160,8 @@ static void Menu()
         Console.WriteLine("5. Eliminar Producto");
         Console.WriteLine("6. Lista de Categorias");
         Console.WriteLine("7. Productos en una categoria");
-        Console.WriteLine("8. Asignar Compra");
-        Console.WriteLine("9. Obtener Compra");
+        Console.WriteLine("8. Crear Compra");
+        Console.WriteLine("9. Obtener una Compra");
         Console.WriteLine("10. Crear Usuario");
         Console.WriteLine("11. Ver Usuarios");
         Console.WriteLine("12. LOGIN");
@@ -165,7 +169,8 @@ static void Menu()
         Console.WriteLine("14. Compras de 1 Usuario");
         Console.WriteLine("15. Obtener Una Venta");
         Console.WriteLine("16. Crear Venta");
-        Console.WriteLine("17. Salir");
+        Console.WriteLine("17. Eliminar Usuario");
+        Console.WriteLine("18. Salir");
         Console.Write("Seleccione una opción: ");
 
         int opcion = int.Parse(Console.ReadLine());
@@ -188,9 +193,17 @@ static void Menu()
                 Console.WriteLine("Ingrese el ID del producto");
                 int buscarId = int.Parse(Console.ReadLine());
                 var productoObetenido = productoBusiness.GetProducto(buscarId);
-                var categoriaDeProd = categoriaBusiness.GetCategoriaBus(productoObetenido.CategoriaId);
-                productoObetenido.Categoria = categoriaDeProd;
-                Console.WriteLine("\n"+productoObetenido.ToString());
+                if (productoObetenido != null)
+                {
+                    var categoriaDeProd = categoriaBusiness.GetCategoriaBus(productoObetenido.CategoriaId);
+                    productoObetenido.Categoria = categoriaDeProd;
+                    Console.WriteLine("\n" + productoObetenido.ToString());
+                }
+                else 
+                {
+                    Console.WriteLine(productoObetenido);//TRAER EL ERROR DEL GENERIC
+                }
+                
                 break;
             case 3:
                 Console.WriteLine("Agregar");//FUNCIONA / FALTA VER EN QUE CASOS SE ROMPE POR EJEMPLO INGRESANDO NOMBRE DUPLICADO Y/O CATEGORIA INEXISTENTE
@@ -308,6 +321,7 @@ static void Menu()
 
                 break;
             case 9:
+                Console.WriteLine("Obtener una Compra");
                 Console.Write("Ingrese Id de la compra: ");
                 int compraId = int.Parse(Console.ReadLine());
                 var compra = compraBusiness.ObtenerCompraBusiness(compraId);
@@ -397,16 +411,16 @@ static void Menu()
                 break;
             case 15:
                 Console.WriteLine("Obtener Venta");
-                Console.Write("Ingrese Id de la compra: ");
+                Console.Write("Ingrese Id de la venta: ");
                 int VentaId = int.Parse(Console.ReadLine());
                 var venta = ventaBusiness.ObtenerVentaBusiness(VentaId);
                 if (venta != null)
                 {
-                    Console.WriteLine($"Compra encontrada: {venta.Fecha}, Producto ID: {venta.ProductoId}, Cantidad: {venta.Cantidad}");
+                    Console.WriteLine($"venta encontrada: {venta.Fecha}, Producto ID: {venta.ProductoId}, Cantidad: {venta.Cantidad}");
                 }
                 else
                 {
-                    Console.WriteLine("Compra no encontrada.");
+                    Console.WriteLine("venta no encontrada.");
                 }
                 break;
             case 16:
@@ -430,6 +444,14 @@ static void Menu()
                 }
                 break;
             case 17:
+                Console.WriteLine("Eliminar Usuario");
+                Console.WriteLine("Ingrese el id del Usuario");
+                IdUsuario = int.Parse(Console.ReadLine());
+                compraBusiness.EliminarComprasDeUnUsuarioBusiness(IdUsuario);
+                ventaBusiness.EliminarVentasDeUnUsuarioBusiness(IdUsuario);
+                usuariobusiness.EliminarUsuarioBusiness(IdUsuario);
+                break;
+            case 18:
                 Console.WriteLine("Saliendo del programa...");
                 Environment.Exit(0);
                 break;

@@ -46,6 +46,34 @@ namespace UTN_inc.Core.DataEF
                 return compras;
             }
         }
+
+        public void ComprasDeUnUsuarioDelete(int usuarioId)
+        {
+            using (var db = new UTN_incContext(_config))
+            {
+                var compra = from c in db.compras
+                              where c.usuarioId == usuarioId
+                              select c;
+
+                /*
+                 var compra = (from c in db.compras
+                              where c.usuarioId == usuarioId
+                              select c).FirstOrDefault();
+                */
+
+                if (compra != null)
+                {
+                    db.compras.RemoveRange(compra);
+                    db.SaveChanges();
+                }
+                else
+                {
+                    db.SaveChanges();
+                }
+            }
+        }
+
+
     }
 }
 

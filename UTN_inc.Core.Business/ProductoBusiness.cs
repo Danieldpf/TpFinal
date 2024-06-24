@@ -45,7 +45,7 @@ namespace UTN_inc.Core.Business
             }
         }
 
-        public List<Producto> GetAll2()
+        /*public List<Producto> GetAll2()
         {
 
             var result = _productoRepository.ProductoGetAll2().Data;
@@ -58,7 +58,7 @@ namespace UTN_inc.Core.Business
             {
                 return result;
             }
-        }
+        }*/
 
         public GenericResult<Producto> DeleteAsync(int productoId)
         {

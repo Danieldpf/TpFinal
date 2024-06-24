@@ -64,7 +64,7 @@ namespace UTN_inc.Core.DataEF
                 }
             }
         }
-
+        /*
         //Obtener todos los productos 2
         public GenericResult<List<Producto>> ProductoGetAll2()
         {
@@ -86,6 +86,7 @@ namespace UTN_inc.Core.DataEF
                 }
             }
         }
+        */
 
         //Borrar Producto
         public GenericResult<Producto> ProductoDelete(int productoId)

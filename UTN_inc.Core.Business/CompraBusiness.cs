@@ -74,5 +74,10 @@ namespace UTN_inc.Core.Business
         {
             return _compraRepository.CompraDeUnUsuario(UsuarioID);
         }
+
+        public void EliminarComprasDeUnUsuarioBusiness(int UsuarioID)
+        {
+            _compraRepository.ComprasDeUnUsuarioDelete(UsuarioID);
+        }
     }
 }

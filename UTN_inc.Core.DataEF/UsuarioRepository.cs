@@ -55,5 +55,31 @@ namespace UTN_inc.Core.DataEF
                 return usuario;
             }
         }
+
+
+        public void UsuarioDelete(int usuarioId)
+        {
+            var comprasUsuario = new CompraRepository(_config);
+            var ventasUsuario = new VentaRepository(_config);
+
+
+
+            using (var db = new UTN_incContext(_config))
+            {
+                var usuario = (from u in db.usuarios
+                            where u.UsuarioId == usuarioId
+                            select u).FirstOrDefault();
+                
+                if (usuario != null)
+                {
+                    db.usuarios.Remove(usuario);
+                    db.SaveChanges();
+                }
+                else
+                {
+                    db.SaveChanges();
+                }
+            }
+        }
     }
 }

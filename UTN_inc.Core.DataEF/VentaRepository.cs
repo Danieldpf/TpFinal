@@ -51,6 +51,25 @@ namespace UTN_inc.Core.DataEF
         }
 
 
+        public void VentasDeUnUsuarioDelete(int usuarioId)
+        {
+            using (var db = new UTN_incContext(_config))
+            {
+                var ventas = (from v in db.ventas
+                               where v.UsuarioId == usuarioId
+                               select v).FirstOrDefault();
+
+                if (ventas != null)
+                {
+                    db.ventas.Remove(ventas);
+                    db.SaveChanges();
+                }
+                else
+                {
+                    db.SaveChanges();
+                }
+            }
+        }
 
     }
 }

@@ -50,5 +50,10 @@ namespace UTN_inc.Core.Business
             return usuario;
         }
 
+        public void EliminarUsuarioBusiness(int usuarioID)
+        {
+            _usuarioRepository.UsuarioDelete(usuarioID);
+        }
+
     }
 }
