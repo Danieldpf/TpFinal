@@ -20,6 +20,7 @@ namespace UTN_inc.Core.DataEF
 
 
 
+
         public void CrearVenta(Venta nuevaVenta)
         {
             using (var db = new UTN_incContext(_config))

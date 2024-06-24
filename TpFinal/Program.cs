@@ -364,6 +364,10 @@ static void Menu()
                     Console.WriteLine("Usuario logueado "+usuarioLogg.ToString());
                     Console.WriteLine("Usuario Global = "+UsuarioGlobal.GetUsuario());
                 }
+                else
+                {
+                    Console.WriteLine("Usuario o contraseña Invalido");
+                }
                 break;
             case 13:
                 Console.WriteLine("Ventas de 1 Usuario");
