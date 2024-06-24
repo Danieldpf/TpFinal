@@ -31,13 +31,12 @@ Console.WriteLine("Hello, World!");
 
 //la idea es que la consola o app llame a la capa de business / business tiene que obtener los datos de un repoitorio 
 
-Console.WriteLine("soasdadasd");
 
-var comprabusiness = new CompraBusiness();
+/*var comprabusiness = new CompraBusiness();
 
-comprabusiness.CrearCompraBusiness();
+comprabusiness.CrearCompraBusiness();*/
 
-//Menu();
+Menu();
 
 /*
 //var productoBusiness = new ProductoBusiness();
@@ -157,13 +156,25 @@ static void Menu()
         Console.WriteLine("5. Eliminar Producto");
         Console.WriteLine("6. Lista de Categorias");
         Console.WriteLine("7. Productos en una categoria");
-        Console.WriteLine("8. Salir");
+        Console.WriteLine("8. Asignar Compra");
+        Console.WriteLine("9. Obtener Compra");
+        Console.WriteLine("10. Crear Usuario");
+        Console.WriteLine("11. Ver Usuarios");
+        Console.WriteLine("12. LOGIN");
+        Console.WriteLine("13. Ventas de 1 Usuario");
+        Console.WriteLine("14. Compras de 1 Usuario");
+        Console.WriteLine("15. Obtener Una Venta");
+        Console.WriteLine("16. Crear Venta");
+        Console.WriteLine("17. Salir");
         Console.Write("Seleccione una opción: ");
 
         int opcion = int.Parse(Console.ReadLine());
 
         var productoBusiness = new ProductoBusiness();
         var categoriaBusiness = new CategoriaBusiness();
+        var compraBusiness = new CompraBusiness();
+        var ventaBusiness = new VentaBusiness();
+        var usuariobusiness = new UsuarioBusiness();//esto estaba abajo de la creacion del nuevo usuario en la consola
 
         switch (opcion)
         {
@@ -177,6 +188,8 @@ static void Menu()
                 Console.WriteLine("Ingrese el ID del producto");
                 int buscarId = int.Parse(Console.ReadLine());
                 var productoObetenido = productoBusiness.GetProducto(buscarId);
+                var categoriaDeProd = categoriaBusiness.GetCategoriaBus(productoObetenido.CategoriaId);
+                productoObetenido.Categoria = categoriaDeProd;
                 Console.WriteLine("\n"+productoObetenido.ToString());
                 break;
             case 3:
@@ -242,14 +255,14 @@ static void Menu()
                 }
                 break;
             case 5:
-                Console.WriteLine("Eliminar");// FUNCIONA CORRECTAMENTE
+                Console.WriteLine("Eliminar");
                 Console.WriteLine("Ingrese el ID del producto");
                 buscarId = int.Parse(Console.ReadLine());
                 result = productoBusiness.DeleteAsync(buscarId);
 
                 if (result.Success)
                 {
-                    Console.WriteLine("Producto Eliminado " + result.ToString());
+                    Console.WriteLine("Producto Eliminado " + result.Data);
                 }
                 else
                 {
@@ -271,6 +284,148 @@ static void Menu()
                 }
                 break;
             case 8:
+                Console.WriteLine("8. Crear Compra");
+                Console.Write("Ingrese Id del producto que quiere comprar: ");
+                int productoId = int.Parse(Console.ReadLine());
+
+                Console.Write("Ingrese la fecha (formato dd/MM/yyyy): ");
+                string fechaString = Console.ReadLine();
+
+                Console.Write("Ingrese la cantidad que quiere comprar: ");
+                int cantidad = int.Parse(Console.ReadLine());
+
+                string errorMessage;
+                string resultado = compraBusiness.CrearCompra(productoId, fechaString, cantidad, out errorMessage);
+
+                if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    Console.WriteLine(errorMessage);
+                }
+                else
+                {
+                    Console.WriteLine(resultado);
+                }
+
+                break;
+            case 9:
+                Console.Write("Ingrese Id de la compra: ");
+                int compraId = int.Parse(Console.ReadLine());
+                var compra = compraBusiness.ObtenerCompraBusiness(compraId);
+                if (compra != null)
+                {
+                    Console.WriteLine($"Compra encontrada: {compra.fecha}, Producto ID: {compra.productoId}, Cantidad: {compra.cantidad}");
+                }
+                else
+                {
+                    Console.WriteLine("Compra no encontrada.");
+                }
+                break;
+            case 10:
+                Console.WriteLine("Creacion de usuario");
+                Console.WriteLine("Ingrese Nombre del usuario");
+                nombre = Console.ReadLine();
+                Console.WriteLine("Ingrese Contraseña del usuario");
+                string contraseña = Console.ReadLine();
+                string contraSalt = GeneradorHashSalt.GenerarSalt(contraseña);
+                int salt = GeneradorHashSalt.GetSalt();
+                var nuevoUsuario = new Usuarios
+                {
+                    Nombre = nombre,
+                    salt = salt,
+                    hash = GeneradorHashSalt.GenerarHash(contraSalt)
+                };
+                usuariobusiness.CrearUsuarioBusiness(nuevoUsuario);
+
+                break;
+            case 11:
+                Console.WriteLine("Ver Usuarios");
+                var listUsuarios = usuariobusiness.ObtenerUsuariosBusiness();
+
+                foreach (var usser in listUsuarios)
+                {
+                    Console.WriteLine(usser.ToString());
+                }
+                break;
+            case 12:
+                Console.WriteLine("LOGIN");
+                Console.WriteLine("Ingresar Nombre de Usuario");
+                string usuario = Console.ReadLine();
+                Console.WriteLine("Ingresar Contraseña");
+                contraseña = Console.ReadLine();
+
+                var usuarioLogg = usuariobusiness.ObtenerUnUsuariosBusiness(usuario);   //Traigo el usuario con ese nombre
+                contraseña = usuarioLogg.salt + contraseña;//Traigo el salt de ese usuario y lo concateno al la contraseña en el mismo orden que se genera
+                contraseña = GeneradorHashSalt.GenerarHash(contraseña);//Genero el Hash de nuevo
+
+
+                if (usuarioLogg != null && contraseña == usuarioLogg.hash)// Compruebo que el usuario no sea nulo y que el hash sea el mismo
+                {
+                    UsuarioGlobal.SetUsuario(usuarioLogg.UsuarioId);
+                    Console.WriteLine("Usuario logueado "+usuarioLogg.ToString());
+                    Console.WriteLine("Usuario Global = "+UsuarioGlobal.GetUsuario());
+                }
+                break;
+            case 13:
+                Console.WriteLine("Ventas de 1 Usuario");
+                Console.Write("Ingrese Id del usuario");
+                int IdUsuario = int.Parse(Console.ReadLine());
+                var listVentas = ventaBusiness.VentasDeUnUsuarioBusiness(IdUsuario);//traigo la lista de ventas de 1 usuario
+                
+
+                foreach (var venta2 in listVentas)
+                {//Imprimo los nombres de los productos que vendio y la cantidad
+                    Console.WriteLine("Venta de "+ productoBusiness.GetProducto(venta2.ProductoId).Nombre + " Cantidad " + venta2.Cantidad);
+                }
+
+                break;
+            case 14:
+                Console.WriteLine("Compras de 1 Usuario");
+                Console.Write("Ingrese Id del usuario");
+                IdUsuario = int.Parse(Console.ReadLine());
+                var listCompras1uss = compraBusiness.ComprasDeUnUsuarioBusiness(IdUsuario);//traigo la lista de ventas de 1 usuario
+
+
+                foreach (var compra2 in listCompras1uss)
+                {//Imprimo los nombres de los productos que compro y la cantidad
+                    Console.WriteLine("Venta de " + productoBusiness.GetProducto(compra2.productoId).Nombre + " Cantidad " + compra2.cantidad);
+                }
+
+                break;
+            case 15:
+                Console.WriteLine("Obtener Venta");
+                Console.Write("Ingrese Id de la compra: ");
+                int VentaId = int.Parse(Console.ReadLine());
+                var venta = ventaBusiness.ObtenerVentaBusiness(VentaId);
+                if (venta != null)
+                {
+                    Console.WriteLine($"Compra encontrada: {venta.Fecha}, Producto ID: {venta.ProductoId}, Cantidad: {venta.Cantidad}");
+                }
+                else
+                {
+                    Console.WriteLine("Compra no encontrada.");
+                }
+                break;
+            case 16:
+                Console.WriteLine("16. Crear Venta");
+                Console.Write("Ingrese Id del producto que quiere Vender: ");
+                productoId = int.Parse(Console.ReadLine());
+
+                
+                Console.Write("Ingrese la cantidad que quiere Vender: ");
+                cantidad = int.Parse(Console.ReadLine());
+
+                resultado = ventaBusiness.CrearVenta(productoId, cantidad, out errorMessage);
+
+                if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    Console.WriteLine(errorMessage);
+                }
+                else
+                {
+                    Console.WriteLine(resultado);
+                }
+                break;
+            case 17:
                 Console.WriteLine("Saliendo del programa...");
                 Environment.Exit(0);
                 break;
@@ -278,7 +433,7 @@ static void Menu()
                 Console.WriteLine("Opción no válida.");
                 break;
         }
-
+        
         Console.WriteLine("\nPresione Enter para continuar...");
         Console.ReadLine();
     }

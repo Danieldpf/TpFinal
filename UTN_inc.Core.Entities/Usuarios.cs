@@ -12,11 +12,12 @@ namespace UTN_inc.Core.Entities
     public class Usuarios
     {
         [Key]
-        public string UsuarioId { get; set; }
+        [Column("UsuarioId")]
+        public int UsuarioId { get; set; }
 
         public string Nombre { get; set; }
         public string hash { get; set; }
-        public string salt { get; set; }
+        public int salt { get; set; }
 
 
         public override string ToString()

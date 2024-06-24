@@ -17,7 +17,7 @@ namespace UTN_inc.Core.Entities
         public int ProductoId { get; set; }
 
         public int Cantidad { get; set; }
-        [ForeignKey("Usuario")]
+        [ForeignKey("Usuarios")]
         public int UsuarioId { get; set; }
 
 

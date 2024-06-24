@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_Inc.Api\\UTN_Inc.Api.csproj": {}
+    "D:\\TpFinal\\UTN_Inc.Api\\UTN_Inc.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_Inc.Api\\UTN_Inc.Api.csproj": {
+    "D:\\TpFinal\\UTN_Inc.Api\\UTN_Inc.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_Inc.Api\\UTN_Inc.Api.csproj",
+        "projectUniqueName": "D:\\TpFinal\\UTN_Inc.Api\\UTN_Inc.Api.csproj",
         "projectName": "UTN_Inc.Api",
-        "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_Inc.Api\\UTN_Inc.Api.csproj",
+        "projectPath": "D:\\TpFinal\\UTN_Inc.Api\\UTN_Inc.Api.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_Inc.Api\\obj\\",
+        "outputPath": "D:\\TpFinal\\UTN_Inc.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",

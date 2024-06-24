@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj": {}
+    "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj": {
+    "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj",
+        "projectUniqueName": "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj",
         "projectName": "UTN_inc.Core.Entities",
-        "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj",
+        "projectPath": "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\obj\\",
+        "outputPath": "D:\\TpFinal\\UTN_inc.Core.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",

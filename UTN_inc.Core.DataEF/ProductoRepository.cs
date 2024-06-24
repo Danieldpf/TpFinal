@@ -19,7 +19,6 @@ namespace UTN_inc.Core.DataEF
 
         
 
-        //Crear Producto --->> hacer que funcione
         public void CrearProductoRepo(Producto producto)
         {
             using (var db = new UTN_incContext(_config))

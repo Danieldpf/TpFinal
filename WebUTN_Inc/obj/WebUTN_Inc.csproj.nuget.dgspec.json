@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\Desktop\\TpFinal\\WebUTN_Inc\\WebUTN_Inc.csproj": {}
+    "D:\\TpFinal\\WebUTN_Inc\\WebUTN_Inc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj": {
+    "D:\\TpFinal\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj",
+        "projectUniqueName": "D:\\TpFinal\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj",
         "projectName": "UTN_inc.Core.Business",
-        "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj",
+        "projectPath": "D:\\TpFinal\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Business\\obj\\",
+        "outputPath": "D:\\TpFinal\\UTN_inc.Core.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.DataEF\\UTN_inc.Core.DataEF.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.DataEF\\UTN_inc.Core.DataEF.csproj"
+              "D:\\TpFinal\\UTN_inc.Core.DataEF\\UTN_inc.Core.DataEF.csproj": {
+                "projectPath": "D:\\TpFinal\\UTN_inc.Core.DataEF\\UTN_inc.Core.DataEF.csproj"
               },
-              "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj"
+              "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj": {
+                "projectPath": "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Configuracion\\UTN_inc.Core.Configuracion.csproj": {
+    "D:\\TpFinal\\UTN_inc.Core.Configuracion\\UTN_inc.Core.Configuracion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Configuracion\\UTN_inc.Core.Configuracion.csproj",
+        "projectUniqueName": "D:\\TpFinal\\UTN_inc.Core.Configuracion\\UTN_inc.Core.Configuracion.csproj",
         "projectName": "UTN_inc.Core.Configuracion",
-        "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Configuracion\\UTN_inc.Core.Configuracion.csproj",
+        "projectPath": "D:\\TpFinal\\UTN_inc.Core.Configuracion\\UTN_inc.Core.Configuracion.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Configuracion\\obj\\",
+        "outputPath": "D:\\TpFinal\\UTN_inc.Core.Configuracion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -131,14 +131,14 @@
         }
       }
     },
-    "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.DataEF\\UTN_inc.Core.DataEF.csproj": {
+    "D:\\TpFinal\\UTN_inc.Core.DataEF\\UTN_inc.Core.DataEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.DataEF\\UTN_inc.Core.DataEF.csproj",
+        "projectUniqueName": "D:\\TpFinal\\UTN_inc.Core.DataEF\\UTN_inc.Core.DataEF.csproj",
         "projectName": "UTN_inc.Core.DataEF",
-        "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.DataEF\\UTN_inc.Core.DataEF.csproj",
+        "projectPath": "D:\\TpFinal\\UTN_inc.Core.DataEF\\UTN_inc.Core.DataEF.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.DataEF\\obj\\",
+        "outputPath": "D:\\TpFinal\\UTN_inc.Core.DataEF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,11 +155,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Configuracion\\UTN_inc.Core.Configuracion.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Configuracion\\UTN_inc.Core.Configuracion.csproj"
+              "D:\\TpFinal\\UTN_inc.Core.Configuracion\\UTN_inc.Core.Configuracion.csproj": {
+                "projectPath": "D:\\TpFinal\\UTN_inc.Core.Configuracion\\UTN_inc.Core.Configuracion.csproj"
               },
-              "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj"
+              "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj": {
+                "projectPath": "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj"
               }
             }
           }
@@ -204,14 +204,14 @@
         }
       }
     },
-    "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj": {
+    "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj",
+        "projectUniqueName": "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj",
         "projectName": "UTN_inc.Core.Entities",
-        "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj",
+        "projectPath": "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\obj\\",
+        "outputPath": "D:\\TpFinal\\UTN_inc.Core.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -270,14 +270,14 @@
         }
       }
     },
-    "C:\\Users\\Daniel\\Desktop\\TpFinal\\WebUTN_Inc\\WebUTN_Inc.csproj": {
+    "D:\\TpFinal\\WebUTN_Inc\\WebUTN_Inc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\TpFinal\\WebUTN_Inc\\WebUTN_Inc.csproj",
+        "projectUniqueName": "D:\\TpFinal\\WebUTN_Inc\\WebUTN_Inc.csproj",
         "projectName": "WebUTN_Inc",
-        "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\WebUTN_Inc\\WebUTN_Inc.csproj",
+        "projectPath": "D:\\TpFinal\\WebUTN_Inc\\WebUTN_Inc.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\WebUTN_Inc\\obj\\",
+        "outputPath": "D:\\TpFinal\\WebUTN_Inc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -294,11 +294,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj"
+              "D:\\TpFinal\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj": {
+                "projectPath": "D:\\TpFinal\\UTN_inc.Core.Business\\UTN_inc.Core.Business.csproj"
               },
-              "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\Desktop\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj"
+              "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj": {
+                "projectPath": "D:\\TpFinal\\UTN_inc.Core.Entities\\UTN_inc.Core.Entities.csproj"
               }
             }
           }

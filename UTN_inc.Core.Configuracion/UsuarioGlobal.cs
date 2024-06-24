@@ -8,7 +8,7 @@ namespace UTN_inc.Core.Configuracion
 {
     public class UsuarioGlobal
     {
-        private static int UsuarioID = 1;
+        private static int UsuarioID;
 
         public static void SetUsuario(int id) 
         {
