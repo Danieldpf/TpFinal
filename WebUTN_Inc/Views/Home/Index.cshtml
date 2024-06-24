@@ -1,11 +1,88 @@
 ﻿@{
-    ViewData["Title"] = "Página Principal";
+	ViewData["Title"] = "Home";
 }
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+    
+
+    const btnEntrar = document.getElementById("btnEntrar");
+    btnEntrar.addEventListener("click", event => {
+        event.preventDefault();
+        const urlUsuarios = "@Url.Action("Login", "Home")";
+        const usuario = document.getElementById("usuario").value;
+        const contraseña = document.getElementById("Contraseña").value;
+
+        if (!usuario || !contraseña) { 
+            alert("Por favor, completa todos los campos.");
+            return;
+        }
+        const data = {
+            usuario: usuario,
+            contraseña: contraseña
+        };
+
+        fetch(urlUsuarios, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    console.log("Autenticación exitosa:", result.message);
+                    alert("Bienvenido, " + result.message);
+                    // Redirigir a la página principal o dashboard
+                    mostrarBienvenida(usuario); // Llamar a la nueva función
+                } else {
+                    console.error("Error en la autenticación:", result.message);
+                    alert("Error: " + result.message);
+                }
+            })
+            .catch(error => {
+                console.error("Error al autenticar:", error);
+                alert("Error al autenticar. Inténtalo de nuevo más tarde.");
+            });
+    });
+
+
+    const mostrarBienvenida = (nombreUsuario) => {
+        // Limpiar el formulario
+        document.getElementById("usuario").value = "";
+        document.getElementById("Contraseña").value = "";
+
+        // Ocultar el formulario
+        const formulario = document.querySelector("form");
+        formulario.style.display = "none";
+
+        // Mostrar el mensaje de bienvenida
+        const mensajeBienvenida = document.createElement("div");
+        mensajeBienvenida.className = "alert alert-success";
+        mensajeBienvenida.textContent = `Bienvenido, ${nombreUsuario}`;
+
+        // Añadir el mensaje al contenedor principal
+        const contenedor = document.querySelector(".text-center");
+        contenedor.appendChild(mensajeBienvenida);
+    };
+
+ });
+</script>
+
 <div class="text-center">
-    <h1 class="display-4">Gestión de Stock</h1>
-    <p>
-        <a class="btn btn-primary" asp-page="./Views/Compras/Index"> Ir a Compras</a>
-        <a class="btn btn-primary" asp-page="./Views/Ventas/Index"> Ir a Ventas</a>
-    </p>
+
+    <h2> Acceso </h2>
+    <form>
+        <div class="mb-3">
+            <label for="usuario" class="form-label">Usuario</label>
+            <input type="email" class="form-control" id="usuario" aria-describedby="emailHelp">            
+        </div>
+        <div class="mb-3">
+            <label for="Contraseña" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="Contraseña">
+        </div>        
+        <button type="submit" class="btn btn-primary" id="btnEntrar">Entrar</button>
+    </form>
 
 </div>

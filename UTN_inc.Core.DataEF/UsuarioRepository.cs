@@ -28,9 +28,17 @@ namespace UTN_inc.Core.DataEF
                 var usuario = from u in db.usuarios
                               where u.Nombre == nuevoUsuario.Nombre
                               select u;
-
-                db.usuarios.Add(nuevoUsuario);
-                db.SaveChanges();
+                if (usuario == null)
+                {
+                    db.usuarios.Add(nuevoUsuario);
+                    db.SaveChanges();
+                }
+                else
+                {
+                    Console.WriteLine("Usuario Existente");
+                    db.SaveChanges();
+                }
+                
             }
         }
 

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WebUTN_Inc.bundle.scp.css"
     },
     {
+      "Id": "D:\\TpFinal\\WebUTN_Inc\\wwwroot\\assets\\pepito.jpg",
+      "PackagePath": "staticwebassets\\assets\\pepito.jpg"
+    },
+    {
       "Id": "D:\\TpFinal\\WebUTN_Inc\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

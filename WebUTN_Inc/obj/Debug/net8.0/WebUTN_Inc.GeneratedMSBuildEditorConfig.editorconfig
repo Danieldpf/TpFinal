@@ -26,8 +26,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\TpFinal\WebUTN_Inc
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/TpFinal/WebUTN_Inc/Views/Compra/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXEluZGV4LmNzaHRtbA==
+[D:/TpFinal/WebUTN_Inc/Views/Home/Compras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wcmFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/TpFinal/WebUTN_Inc/Views/Home/Index.cshtml]
@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/TpFinal/WebUTN_Inc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TpFinal/WebUTN_Inc/Views/Home/Ventas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZW50YXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/TpFinal/WebUTN_Inc/Views/Producto/DetallesInternos.cshtml]
@@ -52,10 +56,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/TpFinal/WebUTN_Inc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/TpFinal/WebUTN_Inc/Views/Venta/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/TpFinal/WebUTN_Inc/Views/_ViewImports.cshtml]

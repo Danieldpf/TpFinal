@@ -1,0 +1,195 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Compras";
+}
+
+<style>
+
+</style>
+
+<script>
+
+   document.addEventListener("DOMContentLoaded", () => { 
+    const urlCompra = "@Url.Action("ComprasList", "Compra")";
+    const urlProductos = "@Url.Action("ProductoList", "Compra")";
+    
+    fetch(urlCompra)
+        .then(listaCompra => listaCompra.json())
+        .then(data => {
+            listarCompras(data);
+
+        }).catch(error => {
+            console.log("Error, no llegan datos de compras", error);
+        });
+    
+    
+    fetch(urlProductos)
+    .then(listaProductos => listaProductos.json())
+    .then(dataProductos => {
+
+            listarProductos(dataProductos);
+
+    }).catch(error => {
+            console.log("Error, no llegan datos de productos", error);
+    });
+
+    
+
+    //Listando Compras
+    const contenedor = document.getElementById("ContenedorCompras");
+    const listarCompras = (data) => { 
+        
+        
+        for (const element of data) { 
+            const compraId = document.createElement("td")
+            compraId.textContent = element.compraId;
+
+            const fecha = document.createElement("td")
+            fecha.textContent = element.fecha;
+
+            const producto = document.createElement("td")
+            producto.textContent = element.productoId;
+
+            const cantidad= document.createElement("td")
+            cantidad.textContent = element.cantidad;
+            
+            contenedor.appendChild(compraId);
+            contenedor.appendChild(fecha);
+            contenedor.appendChild(producto);
+            contenedor.appendChild(cantidad);
+        }
+        
+    }
+
+
+    //Listando Productos
+    const contenedorProductos = document.getElementById("ContenedorProductos");
+    const listarProductos = (dataProductos) => {
+
+
+
+        // Iterar sobre los productos y agregar opciones al <select>
+        dataProductos.forEach(producto => {
+            const option = document.createElement('option');
+            option.value = producto.ProductoId; // Suponiendo que el objeto producto tiene una propiedad id
+            option.text = producto.Nombre; // Suponiendo que el objeto producto tiene una propiedad nombre
+            contenedorProductos.appendChild(option);
+        });
+           
+    };
+
+    //Funcion para comprar
+    const btnParaComprar = document.getElementById("btnComprar")
+    btnParaComprar.addEventListener("click", (event) => {
+        event.preventDefault();
+        const urlParaComprar = "@Url.Action("Comprar","Compra")";
+        const selectElement = document.querySelector('.form-select');
+        const idProducto = selectElement.value;
+
+        const fecha = document.getElementById("fecha").value;
+        const cantidad = document.getElementById("cantidad").value;
+
+        if (!idProducto || !fecha || !cantidad) {
+            alert("Por favor, completa todos los campos.");
+            return;
+        }
+        //condicion fecha
+        const hoy = new Date();
+        const fechaCompra = new Date(fecha);
+        const fechaLimite = new Date();
+        fechaLimite.setDate(hoy.getDate() - 7);
+
+        if (fechaCompra > hoy || fechaCompra < fechaLimite) {
+            alert("La fecha de la compra no puede ser más allá de 7 días atrás, y no pueden cargarse compras futuras.");
+            return;
+        }
+
+        const data = {
+            idProducto: idProducto,
+            fecha: fecha,
+            cantidad: cantidad
+        };
+        
+        
+        fetch(urlParaComprar, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    console.log("Compra realizada:", result.message);
+                    alert("Compra realizada exitosamente.");
+                } else {
+                    console.error("Error en la compra:", result.message);
+                    alert("Error: " + result.message);
+                }
+                
+            })
+            .catch(error => {
+                console.error("Error al realizar la compra:", error);
+                alert("Error al realizar la compra. Inténtalo de nuevo más tarde.");
+            });
+
+    
+        listarCompras();
+    });
+   });
+    
+    
+</script>
+
+
+<div class="text-center">
+    <h1>Gestión de compras </h1>
+
+
+    <select class="form-select" aria-label="Default select example" id="ContenedorProductos">
+        <div class="mb-3">
+            <label for="fecha" class="form-label">Productos</label>            
+        </div>
+        <option selected>abrir el menú de selección </option>
+        
+    </select>
+    <form>
+        <div class="mb-3">
+            <label for="fecha" class="form-label">Fecha</label>
+            <input type="date" class="form-control" id="fecha">
+        </div>
+        <div class="mb-3">
+            <label for="cantidad" class="form-label">cantidad</label>
+            <input type="number" class="form-control" id="cantidad">
+        </div>
+        <button type="submit" class="btn btn-primary" id="btnComprar">Comprar</button>
+    </form>
+
+    <h2> Lista de compras del usuario </h2>
+    <div class ="text-center" >
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>compraId</th>
+                    <th>fecha</th>
+                    <th>producto</th>
+                    <th>cantidad</th>
+                </tr>
+            </thead>
+            <tbody >
+                <tr id="ContenedorCompras">
+
+
+                </tr>
+            </tbody>
+
+        </table>
+        
+    </div>
+
+
+</div>
+

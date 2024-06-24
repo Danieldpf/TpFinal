@@ -22,7 +22,7 @@ namespace UTN_inc.Core.Entities
 
         public override string ToString()
         {
-            return $"ID usuario = [{UsuarioId}] Nombre = [{Nombre}]";
+            return $"\nID usuario: {UsuarioId}\nNombre: {Nombre}\n";
         }
     }
 }

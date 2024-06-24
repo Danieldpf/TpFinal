@@ -19,11 +19,10 @@ namespace UTN_inc.Core.Entities
         public string NombreCategoria { get; set; }
 
         public virtual List<Producto> listaProductos { get; set; } = new List<Producto>();
-        //public List<Producto> listaProductos { get; set; }
 
         public override string ToString()
         {
-            return $"[ID ={CategoriaId}] [Nombre = {NombreCategoria}]";
+            return $"\nID:{CategoriaId}\tNombre: {NombreCategoria}";
         }
 
         

@@ -41,6 +41,12 @@ var config = new Config { ConnectionString = connString };
 
 builder.Services.AddScoped<ProductoBusiness>();
 builder.Services.AddScoped<ProductoRepository>(p => new ProductoRepository(config));
+builder.Services.AddScoped<UsuarioBusiness>();
+builder.Services.AddScoped<UsuarioRepository>(p => new UsuarioRepository(config));
+builder.Services.AddScoped<CompraBusiness>();
+builder.Services.AddScoped<CompraRepository>(p => new CompraRepository(config));
+builder.Services.AddScoped<VentaBusiness>();
+builder.Services.AddScoped<VentaRepository>(p => new VentaRepository(config));
 
 builder.Services.AddControllersWithViews();
 

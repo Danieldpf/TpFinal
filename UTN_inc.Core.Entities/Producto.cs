@@ -40,8 +40,7 @@ namespace UTN_inc.Core.Entities
 
         public override string ToString()
         {
-             return $"[ID = {ProductoId}] [Nombre = {Nombre}] [Estado = {Habilitado}] [Categoria = {Categoria?.NombreCategoria}] [ID de Categoria = {CategoriaId}]";
-            //return $"{ProductoId} {Nombre} {Habilitado} {CategoriaId} {(Categoria != null ? Categoria.NombreCategoria : "No Categoria")}";
+            return $"\nID: {ProductoId}  Nombre: {Nombre}  Estado: {Habilitado}  Categoria: {Categoria?.NombreCategoria}  ID de Categoria: {CategoriaId} \n------------------------------------------------------------------------------------------";
         }
 
     }

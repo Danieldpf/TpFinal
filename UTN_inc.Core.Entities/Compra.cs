@@ -27,7 +27,7 @@ namespace UTN_inc.Core.Entities
 
         public override string ToString()
         {
-            return $"[ID de compra = {compraId}] [fecha = {fecha}] ID producto = [{productoId}] Cantidad = [{cantidad}] ID Usuario[{usuarioId}]";
+            return $"ID de Compra: {compraId}  Fecha: {fecha}  ID Producto: {productoId}  Cantidad: {cantidad}  ID Usuario: {usuarioId}";
         }
     }
 }

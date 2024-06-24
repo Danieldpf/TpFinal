@@ -1,0 +1,198 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Ventas";
+}
+
+<<style>
+
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const urlVenta = "@Url.Action("VenderList", "Venta")";
+        const urlProductos = "@Url.Action("ProductoList", "Venta")";
+
+
+        //Listando Productos
+        const contenedorProductos = document.getElementById("ContenedorProductos");
+        const listarProductos = (dataProductos) => {
+            console.log("Productos recibidos:", dataProductos); // Log de productos recibidos
+            contenedorProductos.innerHTML = ''; // Limpiar el contenedor antes de agregar nuevas opciones
+            dataProductos.forEach(producto => {
+                const option = document.createElement('option');
+                option.value = producto.ProductoId; // Suponiendo que el objeto producto tiene una propiedad id
+                option.text = producto.Nombre; // Suponiendo que el objeto producto tiene una propiedad nombre
+                contenedorProductos.appendChild(option);
+            });
+        };
+
+
+
+        //Listando Ventas
+        const contenedor = document.getElementById("ContenedorVentas");
+        const listarVentas = (data) => {
+            console.log("Ventas recibidas:", data); // Log de ventas recibidas
+            contenedorVentas.innerHTML = ''; // Limpiar el contenedor antes de agregar nuevas ventas
+            data.forEach(element => {
+                const row = document.createElement("tr");
+
+                const VentaId = document.createElement("td");
+                VentaId.textContent = element.VentaId;
+
+                const fecha = document.createElement("td");
+                fecha.textContent = element.Fecha;
+
+                const producto = document.createElement("td");
+                producto.textContent = element.ProductoId;
+
+                const cantidad = document.createElement("td");
+                cantidad.textContent = element.Cantidad;
+
+                row.appendChild(VentaId);
+                row.appendChild(fecha);
+                row.appendChild(producto);
+                row.appendChild(cantidad);
+
+                contenedorVentas.appendChild(row);
+            });
+
+        };
+        // Fetch para obtener lista de ventas
+        fetch(urlVenta)
+            .then(listaVenta => listaVenta.json())
+            .then(data => {
+                listarVentas(data);
+            })
+            .catch(error => {
+                console.log("Error, no llegan datos de Ventas", error);
+            });
+
+        // Fetch para obtener lista de productos
+        fetch(urlProductos)
+            .then(listaProductos => listaProductos.json())
+            .then(data => {
+                listarProductos(data);
+            })
+            .catch(error => {
+                console.log("Error, no llegan datos de Productos", error);
+            });
+
+
+        //Funcion para Vender
+        const btnParaComprar = document.getElementById("btnVender")
+        btnParaComprar.addEventListener("click", (event) => {
+            event.preventDefault();
+            const urlParaVender = "@Url.Action("Vender", "Venta")";
+            const selectElement = document.querySelector('.form-select');
+            const idProducto = selectElement.value;
+
+
+            const cantidad = document.getElementById("cantidad").value;
+
+            if (!idProducto || !cantidad) {
+                alert("Por favor, completa todos los campos.");
+                return;
+            }
+            //condicion fecha
+
+
+            // const hoy = new Date();
+            // const dia = String(hoy.getDate()).padStart(2, '0');
+            // const mes = String(hoy.getMonth() + 1).padStart(2, '0'); // Los meses comienzan desde 0
+            // const año = hoy.getFullYear();
+            // const fecha = `${dia}/${mes}/${año}`;
+
+            const data = {
+                idProducto: idProducto,
+                cantidad: cantidad
+            };
+
+
+            fetch(urlParaVenta, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+            })
+                .then(response => response.json())
+                .then(result => {
+                    if (result.success) {
+                        console.log("Venta realizada:", result.message);
+                        alert("Venta realizada exitosamente.");
+                    } else {
+                        console.error("Error en la Venta:", result.message);
+                        alert("Error: " + result.message);
+                    }
+
+                })
+                .catch(error => {
+                    console.error("Error al realizar la Venta:", error);
+                    alert("Error al realizar la venta. Inténtalo de nuevo más tarde.");
+                });
+
+
+            listarVentas();
+        });
+
+    });
+</script>
+
+<div class="text-center">
+    <h1>Gestión de ventas</h1>
+
+
+    <select class="form-select" aria-label="Default select example" id="ContenedorProductos">
+        <div class="mb-3">
+            <label for="fecha" class="form-label">Productos</label>
+        </div>
+        <option selected>abrir el menú de selección </option>
+
+    </select>
+    <form>
+        
+        <div class="mb-3">
+            <label for="cantidad" class="form-label">cantidad</label>
+            <input type="number" class="form-control" id="cantidad">
+        </div>
+        <button type="submit" class="btn btn-primary" id="btnVender">Vender</button>
+    </form>
+
+    <h2> Lista de compras del usuario </h2>
+    <div class="text-center">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>VentaId</th>
+                    <th>Fecha</th>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="ContenedorVentas">
+                </tr>
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+</div>
+
+
+
+@*
+        public int VentaId { get; set; }
+
+        public DateTime Fecha { get; set; }
+        [ForeignKey("Producto")]
+        public int ProductoId { get; set; }
+
+        public int Cantidad { get; set; }
+        [ForeignKey("Usuarios")]
+        public int UsuarioId { get; set; }
+        *@
