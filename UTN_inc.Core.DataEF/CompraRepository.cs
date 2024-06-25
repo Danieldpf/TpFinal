@@ -73,6 +73,21 @@ namespace UTN_inc.Core.DataEF
             }
         }
 
+        public Compra BuscarCompraPorProducto(int productoId)
+        {
+            using (var db = new UTN_incContext(_config))
+            {
+                //return db.compras.Find(productoId);
+                var comp = (from p in db.compras
+                            where p.productoId == productoId
+                            select p).FirstOrDefault();
+
+                return comp;
+            }
+
+        }
+
+
 
     }
 }

@@ -36,7 +36,7 @@ namespace UTN_inc.Core.Business
 
             if (cantidad <= 0)
             {
-                errorMessage = "La compra no puede ser menor a 1.";
+                errorMessage = "La Venta no puede ser menor a 1.";
                 return null;
             }
 
@@ -50,9 +50,10 @@ namespace UTN_inc.Core.Business
                 UsuarioId = UsuarioGlobal.GetUsuario()
             };
 
+
             _ventaRepository.CrearVenta(nuevaVenta);
             errorMessage = null;
-            return "Compra creada exitosamente.";
+            return "Venta creada exitosamente.";
         }
         public Venta ObtenerVentaBusiness(int VentaId)
         {
@@ -60,14 +61,20 @@ namespace UTN_inc.Core.Business
         }
 
 
-        public List<Venta> VentasDeUnUsuarioBusiness(int UsuarioID) 
+        public List<Venta> VentasDeUnUsuarioBusiness(int UsuarioID)
         {
             return _ventaRepository.VentasDeUnUsuario(UsuarioID);
         }
 
         public void EliminarVentasDeUnUsuarioBusiness(int UsuarioID)
         {
-             _ventaRepository.VentasDeUnUsuarioDelete(UsuarioID);
+            _ventaRepository.VentasDeUnUsuarioDelete(UsuarioID);
+        }
+
+
+        public void EliminarVentaBusiness(Venta venta)
+        {
+            _ventaRepository.EliminarVentaRepo(venta);
         }
     }
 }

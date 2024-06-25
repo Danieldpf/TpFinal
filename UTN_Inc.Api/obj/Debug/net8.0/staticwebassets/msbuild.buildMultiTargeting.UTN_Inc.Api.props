@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\UTN_Inc.Api.props" />
+</Project>

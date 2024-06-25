@@ -280,6 +280,7 @@ static void Menu()
                     break;
                 case 3:
                     Console.Clear();
+                    Console.WriteLine("3. Agregar Producto");
                     Console.WriteLine("Ingrese los Datos del Producto\n");
                     Console.WriteLine("Nombre del Producto: ");
                     string nombre = Console.ReadLine();
@@ -299,7 +300,8 @@ static void Menu()
                     {
                         habilitadoReal = false;
                     }
-                    //var entidadCategoria = categoriaBusiness.GetCategoriaBus(Idcategoria);//ESTO NO LO ESTOY OCUPANDO PERO LA IDEA ERA TRAER LA ENTIDAD CATEGORIA Y ASIGNARLE AL OBJETO CATEGORIA DENTRO DE PRODUCTO PERO NO SE PUEDE POR RESTRICCIONES DE LA BASE DE DATOS,TAMPOCO ES NECESARIO AL PARECER POR LAS RELACIONES DE LA CLAVES
+
+
                     var nuevoProducto = new Producto { Nombre = nombre, CategoriaId = Idcategoria, Habilitado = habilitadoReal };
                     productoBusiness.CrearProductoBusiness(nuevoProducto);
                     break;
@@ -430,16 +432,28 @@ static void Menu()
                     Console.Write("\nIngrese la cantidad que quiere Vender: ");
                     cantidad = int.Parse(Console.ReadLine());
 
-                    resultado = ventaBusiness.CrearVenta(productoId, cantidad, out errorMessage);
+                    
+                    var idCompra = compraBusiness.BuscarCompraPorProducto(productoId);
+                    var compraDe1Procudto = compraBusiness.ObtenerCompraBusiness(idCompra.compraId);
 
-                    if (!string.IsNullOrEmpty(errorMessage))
+                    if (compraDe1Procudto.cantidad > cantidad)
                     {
-                        Console.WriteLine(errorMessage);
+                        resultado = ventaBusiness.CrearVenta(productoId, cantidad, out errorMessage);
+                        
+                        if (!string.IsNullOrEmpty(errorMessage))
+                        {
+                            Console.WriteLine(errorMessage);
+                        }
+                        else
+                        {
+                            Console.WriteLine(resultado);
+                        }
                     }
                     else
                     {
-                        Console.WriteLine(resultado);
+                        Console.WriteLine("Stock de insuficiente");
                     }
+
                     break;
                 case 11:
                     Console.Clear();

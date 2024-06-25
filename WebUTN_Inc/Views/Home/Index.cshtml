@@ -1,7 +1,29 @@
 ﻿@{
 	ViewData["Title"] = "Home";
 }
+<style>
+   
+    #Contenedor {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+        margin:1em;
+        padding:2em;
+        
+    }
+    #NombresContenedor{
+            width:30%;
+        margin: auto;
+        box-shadow: 16px 17px 33px 1px rgba(0,0,0,0.62);
+        -webkit-box-shadow: 16px 17px 33px 1px rgba(0,0,0,0.62);
+        -moz-box-shadow: 16px 17px 33px 1px rgba(0,0,0,0.62);
+        
+    }
 
+    
+</style>
 <script>
     document.addEventListener("DOMContentLoaded", () => {
     
@@ -70,7 +92,7 @@
  });
 </script>
 
-<div class="text-center">
+<div class="text-center" id="Contendor">
 
     <h2> Acceso </h2>
     <form>
@@ -84,5 +106,75 @@
         </div>        
         <button type="submit" class="btn btn-primary" id="btnEntrar">Entrar</button>
     </form>
+
+    <h3>Acerca de este proyecto </h3>  
+    
+    
+        <p>
+            Somos estudiantes de T.U.P. (Tecnicatura Universitaria en Programación) de la U.T.N. (Universidad Tecnológica Nacional).
+            Este proyecto es para la entrega de un trabajo integrador de la materia Programación III,
+            nuestro profesor fue Jose A. Fernandez.
+        </p>
+
+        <p>
+            En el proyecto abarcamos todos los temas dados en la materia,
+            desde como estructurar nuestro proyecto, hasta como conectarnos a una base de datos.
+            Sin dudas un desafío que puso a prueba nuestros conocimientos pero nos acerca mas a nuestra pación, que es la programación.
+        </p>
+
+        <p>
+            Pepito Compra es un programa que representa la gestión de compras y ventas para un usuario,
+            pudiendo gestionar stock y productos, guardando información de las transacciones para cada usuario.
+        </p>
+
+
+        <p>Este proyecto fue llevado a cabo por un grupo de 5 estudiantes: <a /></p>
+        <div id="NombresContenedor">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Apellido</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pablo Daniel</td>
+                        <td>Franco </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            Franco Rubi
+                        </td>
+                        <td>Zarate Moro</td>
+
+                    </tr>
+                    <tr>
+                        <td>Joel</td>
+                        <td>Enora</td>
+
+                    </tr>
+                    <tr>
+                        <td>Juan Ignacio</td>
+                        <td>Martinez</td>
+
+                    </tr>
+                    <tr>
+                        <td>Lucas David</td>
+                        <td>Ojeda</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+
+    
+
+   
+    
+
 
 </div>

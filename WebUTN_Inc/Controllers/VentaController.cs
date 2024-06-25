@@ -26,6 +26,13 @@ namespace WebUTN_Inc.Controllers
         }
 
 
+        public class AyudaProductos // Modelo para los datos de inicio de sesión
+        {
+            public string Nombre { get; set; }
+            public int ProductoId { get; set; }
+        }
+
+
 
         [HttpGet]
         public JsonResult VenderList()
@@ -39,9 +46,23 @@ namespace WebUTN_Inc.Controllers
         [HttpGet]
         public JsonResult ProductoList()
         {
+
+            var listaProductosProcesados = new List<AyudaProductos>();
+            //var listaProductosProcesados = new List<string>();
             var listaProductos = _productoBusiness.GetAll();
 
-            return Json(listaProductos);
+            foreach (var producto in listaProductos.Data) {
+                var ayudaProducto=new AyudaProductos
+                {
+                    Nombre = producto.Nombre,
+                    ProductoId=producto.ProductoId
+                };
+                listaProductosProcesados.Add(ayudaProducto);            
+            }
+            var JsonResult = new JsonResult(listaProductosProcesados);
+
+
+            return Json(JsonResult);
         }
 
         [HttpPost]

@@ -70,19 +70,19 @@ namespace WebUTN_Inc.Controllers
             contraseñaLogeada = GeneradorHashSalt.GenerarHash(contraseñaLogeada);
 
             // Por ejemplo, validar contra una base de datos
-            if (usuarioLogeado != null && contraseña == usuarioLogeado.hash)
+            if (usuarioLogeado != null && contraseñaLogeada == usuarioLogeado.hash)
             {
 
                 UsuarioGlobal.SetUsuario(usuarioLogeado.UsuarioId);
                 return true;
-               
+
             }
             return false;
         }
 
 
 
-[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

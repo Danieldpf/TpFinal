@@ -18,7 +18,7 @@ namespace UTN_inc.Core.Entities
         [Column("Nombre")]
         public string NombreCategoria { get; set; }
 
-        public virtual List<Producto> listaProductos { get; set; } = new List<Producto>();
+        //public virtual List<Producto> listaProductos { get; set; } = new List<Producto>();
 
         public override string ToString()
         {

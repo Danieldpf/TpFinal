@@ -5,22 +5,28 @@
     ViewData["Title"] = "Ventas";
 }
 
-<<style>
+<style>
 
 </style>
 
 <script>
-    document.addEventListener("DOMContentLoaded", () => {
+   document.addEventListener("DOMContentLoaded", () => { 
         const urlVenta = "@Url.Action("VenderList", "Venta")";
         const urlProductos = "@Url.Action("ProductoList", "Venta")";
 
 
-        //Listando Productos
+              //Listando Productos
         const contenedorProductos = document.getElementById("ContenedorProductos");
         const listarProductos = (dataProductos) => {
             console.log("Productos recibidos:", dataProductos); // Log de productos recibidos
             contenedorProductos.innerHTML = ''; // Limpiar el contenedor antes de agregar nuevas opciones
-            dataProductos.forEach(producto => {
+            const data = dataProductos.value
+
+            data.forEach(data => {
+                   
+            });
+
+            data.forEach(producto => {
                 const option = document.createElement('option');
                 option.value = producto.ProductoId; // Suponiendo que el objeto producto tiene una propiedad id
                 option.text = producto.Nombre; // Suponiendo que el objeto producto tiene una propiedad nombre
@@ -28,38 +34,38 @@
             });
         };
 
+    
 
+    //Listando Ventas
+        const contenedorVentas = document.getElementById("ContenedorVentas");
+       const listarVentas = (data) => {
+           console.log("Ventas recibidas:", data); // Log de ventas recibidas
+           contenedorVentas.innerHTML = ''; // Limpiar el contenedor antes de agregar nuevas ventas
+           data.forEach(element => {
+               const row = document.createElement("tr");
 
-        //Listando Ventas
-        const contenedor = document.getElementById("ContenedorVentas");
-        const listarVentas = (data) => {
-            console.log("Ventas recibidas:", data); // Log de ventas recibidas
-            contenedorVentas.innerHTML = ''; // Limpiar el contenedor antes de agregar nuevas ventas
-            data.forEach(element => {
-                const row = document.createElement("tr");
+               const VentaId = document.createElement("td");
+               VentaId.textContent = element.VentaId;
 
-                const VentaId = document.createElement("td");
-                VentaId.textContent = element.VentaId;
+               const fecha = document.createElement("td");
+               fecha.textContent = element.Fecha;
 
-                const fecha = document.createElement("td");
-                fecha.textContent = element.Fecha;
+               const producto = document.createElement("td");
+               producto.textContent = element.ProductoId;
 
-                const producto = document.createElement("td");
-                producto.textContent = element.ProductoId;
+               const cantidad = document.createElement("td");
+               cantidad.textContent = element.Cantidad;
 
-                const cantidad = document.createElement("td");
-                cantidad.textContent = element.Cantidad;
+               row.appendChild(VentaId);
+               row.appendChild(fecha);
+               row.appendChild(producto);
+               row.appendChild(cantidad);
 
-                row.appendChild(VentaId);
-                row.appendChild(fecha);
-                row.appendChild(producto);
-                row.appendChild(cantidad);
+               contenedorVentas.appendChild(row);
+           });
 
-                contenedorVentas.appendChild(row);
-            });
-
-        };
-        // Fetch para obtener lista de ventas
+       };
+            // Fetch para obtener lista de ventas
         fetch(urlVenta)
             .then(listaVenta => listaVenta.json())
             .then(data => {
@@ -137,7 +143,7 @@
             listarVentas();
         });
 
-    });
+   });
 </script>
 
 <div class="text-center">
@@ -171,9 +177,8 @@
                     <th>Cantidad</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr id="ContenedorVentas">
-                </tr>
+            <tbody id="ContenedorVentas">
+                
             </tbody>
 
         </table>

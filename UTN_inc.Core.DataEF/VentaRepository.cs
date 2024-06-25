@@ -23,10 +23,12 @@ namespace UTN_inc.Core.DataEF
 
         public void CrearVenta(Venta nuevaVenta)
         {
+            var producto = new ProductoRepository(_config);
+            
             using (var db = new UTN_incContext(_config))
             {
-                db.ventas.Add(nuevaVenta);
-                db.SaveChanges();
+                    db.ventas.Add(nuevaVenta);
+                    db.SaveChanges();
             }
         }
 
@@ -70,6 +72,16 @@ namespace UTN_inc.Core.DataEF
                 }
             }
         }
+
+        public void EliminarVentaRepo(Venta venta)
+        {
+            using (var db = new UTN_incContext(_config))
+            {
+                    db.ventas.Remove(venta);
+                    db.SaveChanges();
+            }
+        }
+
 
     }
 }
