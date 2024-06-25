@@ -25,9 +25,10 @@ namespace UTN_inc.Core.DataEF
         {
             using (var db = new UTN_incContext(_config))
             {
-                var usuario = from u in db.usuarios
+                var usuario = (from u in db.usuarios
                               where u.Nombre == nuevoUsuario.Nombre
-                              select u;
+                              select u).FirstOrDefault();
+
                 if (usuario == null)
                 {
                     db.usuarios.Add(nuevoUsuario);

@@ -45,10 +45,10 @@ namespace WebUTN_Inc.Controllers
         }
 
         [HttpPost]
-        public JsonResult Comprar(int productoId, string fecha, int cantidad)
+        public JsonResult Comprar([FromBody] InputCompraModelo datos)
         {
             string errorMessage;
-            var resultado = _compraBusinnes.CrearCompra(productoId, fecha, cantidad, out errorMessage);
+            var resultado = _compraBusinnes.CrearCompra(datos.IdProducto, datos.Fecha.ToString("dd/MM/yyyy"), datos.Cantidad, out errorMessage);
 
             if (resultado != null)
             {
@@ -61,6 +61,12 @@ namespace WebUTN_Inc.Controllers
         }
 
 
+    }
 
+    public class InputCompraModelo// modelo de lo que entra web
+    {
+        public int IdProducto { get; set; }
+        public DateTime Fecha { get; set; }
+        public int Cantidad { get; set; }
     }
 }

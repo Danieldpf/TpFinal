@@ -42,23 +42,25 @@
     const listarCompras = (data) => { 
         
         
-        for (const element of data) { 
-            const compraId = document.createElement("td")
-            compraId.textContent = element.compraId;
+        for (const element of data) {
+                const fila = document.createElement("tr")
+                const compraId = document.createElement("td")
+                compraId.textContent = element.compraId;
 
-            const fecha = document.createElement("td")
-            fecha.textContent = element.fecha;
+                const fecha = document.createElement("td")
+                fecha.textContent = element.fecha;
 
-            const producto = document.createElement("td")
-            producto.textContent = element.productoId;
+                const producto = document.createElement("td")
+                producto.textContent = element.productoId;
 
-            const cantidad= document.createElement("td")
-            cantidad.textContent = element.cantidad;
-            
-            contenedor.appendChild(compraId);
-            contenedor.appendChild(fecha);
-            contenedor.appendChild(producto);
-            contenedor.appendChild(cantidad);
+                const cantidad = document.createElement("td")
+                cantidad.textContent = element.cantidad;
+
+                contenedor.appendChild(fila);
+                fila.appendChild(compraId);
+                fila.appendChild(fecha);
+                fila.appendChild(producto);
+                fila.appendChild(cantidad);
         }
         
     }
@@ -71,10 +73,10 @@
 
 
         // Iterar sobre los productos y agregar opciones al <select>
-        dataProductos.forEach(producto => {
+        dataProductos.data.forEach(producto => {//error de sintaxis
             const option = document.createElement('option');
-            option.value = producto.ProductoId; // Suponiendo que el objeto producto tiene una propiedad id
-            option.text = producto.Nombre; // Suponiendo que el objeto producto tiene una propiedad nombre
+            option.value = producto.productoId;//error de sintaxis // Suponiendo que el objeto producto tiene una propiedad id
+            option.text = producto.nombre;//error de sintaxis // Suponiendo que el objeto producto tiene una propiedad nombre
             contenedorProductos.appendChild(option);
         });
            
@@ -179,11 +181,8 @@
                     <th>cantidad</th>
                 </tr>
             </thead>
-            <tbody >
-                <tr id="ContenedorCompras">
+            <tbody id ="ContenedorCompras"> <!-- Habia un tr dentro del body y estaba esta linea adentro, habia que hacer la linea dentro del body y sacar el tr para que haga el salto de linea en compras y no se imprima todo en una sola linea-->
 
-
-                </tr>
             </tbody>
 
         </table>

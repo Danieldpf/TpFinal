@@ -123,7 +123,8 @@ static void Menu2()
             Console.WriteLine("1. LOGIN");
             Console.WriteLine("2. Crear Usuario");
             Console.WriteLine("3. Ver Usuarios");
-            Console.WriteLine("4. Salir :c");
+            Console.WriteLine("4. Ver Usuarios");
+            Console.WriteLine("5. Salir :c");
             Console.WriteLine("-----------------------------------------------------------------");
             int opcionIngreso = int.Parse(Console.ReadLine());
 

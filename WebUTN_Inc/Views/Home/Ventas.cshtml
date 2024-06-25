@@ -28,8 +28,8 @@
 
             data.forEach(producto => {
                 const option = document.createElement('option');
-                option.value = producto.ProductoId; // Suponiendo que el objeto producto tiene una propiedad id
-                option.text = producto.Nombre; // Suponiendo que el objeto producto tiene una propiedad nombre
+                option.value = producto.productoId;//sintax error // Suponiendo que el objeto producto tiene una propiedad id
+                option.text = producto.nombre;//sintax error // Suponiendo que el objeto producto tiene una propiedad nombre
                 contenedorProductos.appendChild(option);
             });
         };
@@ -45,16 +45,16 @@
                const row = document.createElement("tr");
 
                const VentaId = document.createElement("td");
-               VentaId.textContent = element.VentaId;
+               VentaId.textContent = element.ventaId;//sintx
 
                const fecha = document.createElement("td");
-               fecha.textContent = element.Fecha;
+                fecha.textContent = element.fecha;//sintx
 
                const producto = document.createElement("td");
-               producto.textContent = element.ProductoId;
+                producto.textContent = element.productoId;//sintx
 
                const cantidad = document.createElement("td");
-               cantidad.textContent = element.Cantidad;
+                cantidad.textContent = element.cantidad;//sintx
 
                row.appendChild(VentaId);
                row.appendChild(fecha);
@@ -90,7 +90,7 @@
         const btnParaComprar = document.getElementById("btnVender")
         btnParaComprar.addEventListener("click", (event) => {
             event.preventDefault();
-            const urlParaVender = "@Url.Action("Vender", "Venta")";
+            const urlParaVender = "@Url.Action("Vender", "Venta")";//nombre de url
             const selectElement = document.querySelector('.form-select');
             const idProducto = selectElement.value;
 
@@ -116,7 +116,7 @@
             };
 
 
-            fetch(urlParaVenta, {
+            fetch(urlParaVender, {// estaba mal escrito -> urlParaVenta
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

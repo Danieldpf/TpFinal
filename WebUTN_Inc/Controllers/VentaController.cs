@@ -33,6 +33,13 @@ namespace WebUTN_Inc.Controllers
         }
 
 
+        public class InputVentaModelo// modelo de los datos
+        {
+            public int IdProducto { get; set; }
+            public int Cantidad { get; set; }
+        }
+
+
 
         [HttpGet]
         public JsonResult VenderList()
@@ -66,10 +73,10 @@ namespace WebUTN_Inc.Controllers
         }
 
         [HttpPost]
-        public JsonResult Vender(int productoId, int cantidad)
+        public JsonResult Vender([FromBody] InputVentaModelo datos)//parcea lo que recibe del body "un json" a un objeto
         {
             string errorMessage;
-            var resultado = _ventaBusinnes.CrearVenta(productoId,  cantidad, out errorMessage);
+            var resultado = _ventaBusinnes.CrearVenta(datos.IdProducto, datos.Cantidad, out errorMessage);//recibe modelo Input
 
             if (resultado != null)
             {
