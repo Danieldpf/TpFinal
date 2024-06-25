@@ -24,11 +24,11 @@ namespace UTN_inc.Core.DataEF
         public void CrearVenta(Venta nuevaVenta)
         {
             var producto = new ProductoRepository(_config);
-            
+
             using (var db = new UTN_incContext(_config))
             {
-                    db.ventas.Add(nuevaVenta);
-                    db.SaveChanges();
+                db.ventas.Add(nuevaVenta);
+                db.SaveChanges();
             }
         }
 
@@ -46,20 +46,20 @@ namespace UTN_inc.Core.DataEF
             using (var db = new UTN_incContext(_config))
             {
                 var ventas = (from p in db.ventas
-                                 where p.UsuarioId == UsuarioID
+                              where p.UsuarioId == UsuarioID
                               select p).ToList();
                 return ventas;
             }
         }
 
-
+        //Se Usa para la eliminacion del usuario
         public void VentasDeUnUsuarioDelete(int usuarioId)
         {
             using (var db = new UTN_incContext(_config))
             {
                 var ventas = (from v in db.ventas
-                               where v.UsuarioId == usuarioId
-                               select v).FirstOrDefault();
+                              where v.UsuarioId == usuarioId
+                              select v).FirstOrDefault();
 
                 if (ventas != null)
                 {
@@ -73,15 +73,37 @@ namespace UTN_inc.Core.DataEF
             }
         }
 
+        
         public void EliminarVentaRepo(Venta venta)
         {
             using (var db = new UTN_incContext(_config))
             {
-                    db.ventas.Remove(venta);
-                    db.SaveChanges();
+                db.ventas.Remove(venta);
+                db.SaveChanges();
             }
         }
 
+        //Eliminar venta de manera individual
+        public void EliminarVentaRepo(int ventaiD)
+        {
+            using (var db = new UTN_incContext(_config))
+            {
+                var venta = (from v in db.ventas
+                            where v.VentaId == ventaiD
+                            select v).FirstOrDefault();
 
+                if (venta != null)
+                {
+                    db.ventas.Remove(venta);
+                    db.SaveChanges();
+                }
+                else
+                {
+                    Console.WriteLine("Esa venta no existe");
+                    db.SaveChanges();
+                }
+                
+            }
+        }
     }
 }

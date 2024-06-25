@@ -86,6 +86,7 @@ namespace UTN_inc.Core.DataEF
                 }
                 else
                 {
+                    Console.WriteLine("El usuario no existe");
                     db.SaveChanges();
                 }
             }

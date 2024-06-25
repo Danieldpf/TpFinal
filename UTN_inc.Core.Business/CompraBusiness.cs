@@ -27,43 +27,51 @@ namespace UTN_inc.Core.Business
         public string CrearCompra(int productoId, string fechaString, int cantidad, out string errorMessage)
         {
             var producto = _productoRepository.ProductoGet(productoId);
-
-            if (producto == null)
+            if (producto.Data != null)
             {
-                errorMessage = "Producto no encontrado.";
-                return null;
+
+                if (producto == null)
+                {
+                    errorMessage = "Producto no encontrado.";
+                    return null;
+                }
+
+                if (!DateTime.TryParseExact(fechaString, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime fechaCompra))
+                {
+                    errorMessage = "Fecha ingresada no es válida.";
+                    return null;
+                }
+
+                DateTime fechaLimite = DateTime.Now.AddDays(-7);
+                if (fechaCompra < fechaLimite || fechaCompra > DateTime.Now)
+                {
+                    errorMessage = "Fecha fuera de rango.";
+                    return null;
+                }
+
+                if (cantidad <= 0)
+                {
+                    errorMessage = "La compra no puede ser menor a 1.";
+                    return null;
+                }
+
+                var nuevaCompra = new Compra
+                {
+                    fecha = fechaCompra,
+                    productoId = producto.Data.ProductoId,
+                    cantidad = cantidad,
+                    usuarioId = UsuarioGlobal.GetUsuario()
+                };
+
+                _compraRepository.CrearCompra(nuevaCompra);
+                errorMessage = null;
+                return "Compra creada exitosamente.";
             }
-
-            if (!DateTime.TryParseExact(fechaString, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime fechaCompra))
+            else
             {
-                errorMessage = "Fecha ingresada no es válida.";
-                return null;
+                errorMessage = null;
+                return "Id No existe";
             }
-
-            DateTime fechaLimite = DateTime.Now.AddDays(-7);
-            if (fechaCompra < fechaLimite || fechaCompra > DateTime.Now)
-            {
-                errorMessage = "Fecha fuera de rango.";
-                return null;
-            }
-
-            if (cantidad <= 0)
-            {
-                errorMessage = "La compra no puede ser menor a 1.";
-                return null;
-            }
-
-            var nuevaCompra = new Compra
-            {
-                fecha = fechaCompra,
-                productoId = producto.Data.ProductoId,
-                cantidad = cantidad,
-                usuarioId = UsuarioGlobal.GetUsuario()
-            };
-
-            _compraRepository.CrearCompra(nuevaCompra);
-            errorMessage = null;
-            return "Compra creada exitosamente.";
         }
         public Compra ObtenerCompraBusiness(int compraId)
         {
@@ -83,6 +91,11 @@ namespace UTN_inc.Core.Business
         public Compra BuscarCompraPorProducto(int productoId)
         {
             return _compraRepository.BuscarCompraPorProducto(productoId);
+        }
+
+        public void EliminarCompraBusiness(int compraId)
+        {
+             _compraRepository.EliminarCompraRepo(compraId);
         }
     }
 }

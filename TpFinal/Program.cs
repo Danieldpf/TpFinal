@@ -123,7 +123,7 @@ static void Menu2()
             Console.WriteLine("1. LOGIN");
             Console.WriteLine("2. Crear Usuario");
             Console.WriteLine("3. Ver Usuarios");
-            Console.WriteLine("4. Ver Usuarios");
+            Console.WriteLine("4. Eliminar Usuario");
             Console.WriteLine("5. Salir :c");
             Console.WriteLine("-----------------------------------------------------------------");
             int opcionIngreso = int.Parse(Console.ReadLine());
@@ -163,23 +163,28 @@ static void Menu2()
                         contraseña = Console.ReadLine();
 
                         var usuarioLogg = usuariobusiness.ObtenerUnUsuariosBusiness(usuario);   //Traigo el usuario con ese nombre
-                        contraseña = usuarioLogg.salt + contraseña;//Traigo el salt de ese usuario y lo concateno al la contraseña en el mismo orden que se genera
-                        contraseña = GeneradorHashSalt.GenerarHash(contraseña);//Genero el Hash de nuevo
 
-
-                        if (usuarioLogg != null && contraseña == usuarioLogg.hash)// Compruebo que el usuario no sea nulo y que el hash sea el mismo
+                        
+                        if (usuarioLogg != null)
                         {
-                            Console.Clear();
-                            UsuarioGlobal.SetUsuario(usuarioLogg.UsuarioId);
-                            Console.WriteLine("Usuario Logueado \n" + usuarioLogg.ToString());
-                            Console.WriteLine("Usuario Global: " + UsuarioGlobal.GetUsuario());
+                            contraseña = usuarioLogg.salt + contraseña;//Traigo el salt de ese usuario y lo concateno al la contraseña en el mismo orden que se genera
+                            contraseña = GeneradorHashSalt.GenerarHash(contraseña);//Genero el Hash de nuevo
 
-                            Menu();
-                        }
-                        else
-                        {
-                            Console.Clear();
-                            Console.WriteLine("Usuario o contraseña Invalido");
+                            if (contraseña == usuarioLogg.hash)// Compruebo que el usuario no sea nulo y que el hash sea el mismo
+                            {
+
+                                Console.Clear();
+                                UsuarioGlobal.SetUsuario(usuarioLogg.UsuarioId);
+                                Console.WriteLine("Usuario Logueado \n" + usuarioLogg.ToString());
+                                Console.WriteLine("Usuario Global: " + UsuarioGlobal.GetUsuario());
+
+                                Menu();
+                            }
+                            else
+                            {
+                                Console.Clear();
+                                Console.WriteLine("Usuario o contraseña Invalido");
+                            }
                         }
                     }
                     catch (Exception e)
@@ -247,7 +252,9 @@ static void Menu()
             Console.WriteLine("11. Obtener Una Venta");
             Console.WriteLine("12. Ventas por Usuario");
             Console.WriteLine("13. Compras por Usuario");
-            Console.WriteLine("14. Salir");
+            Console.WriteLine("14. Eliminar 1 Compra");
+            Console.WriteLine("15. Eliminar 1 Venta");
+            Console.WriteLine("16. Salir");
             Console.WriteLine("-----------------------------------------------------------------");
             Console.Write("Seleccione una opción: ");
             Console.WriteLine("\n-----------------------------------------------------------------");
@@ -377,11 +384,18 @@ static void Menu()
                     Console.WriteLine("\nIngrese el id de la categoria: ");
                     buscarId = int.Parse(Console.ReadLine());
                     var productosEnUnaCategoria = productoBusiness.ProductosEnUnaCategoriaBusiness(buscarId);
-                    Console.Clear();
-                    Console.WriteLine("Los Productos Disponibles en esta Categoria son: ");
-                    foreach (var item in productosEnUnaCategoria)
+                    if (productosEnUnaCategoria != null)
                     {
-                        Console.WriteLine("\n" + item.Nombre);
+                        Console.Clear();
+                        Console.WriteLine("Los Productos Disponibles en esta Categoria son: ");
+                        foreach (var item in productosEnUnaCategoria)
+                        {
+                            Console.WriteLine("\n" + item.Nombre);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Esa categoria no existe");
                     }
                     break;
                 case 8:
@@ -435,31 +449,39 @@ static void Menu()
 
                     
                     var idCompra = compraBusiness.BuscarCompraPorProducto(productoId);
-                    var compraDe1Procudto = compraBusiness.ObtenerCompraBusiness(idCompra.compraId);
-
-                    if (compraDe1Procudto.cantidad > cantidad)
+                    
+                    if (idCompra != null)
                     {
-                        resultado = ventaBusiness.CrearVenta(productoId, cantidad, out errorMessage);
-                        
-                        if (!string.IsNullOrEmpty(errorMessage))
+                        var compraDe1Procudto = compraBusiness.ObtenerCompraBusiness(idCompra.compraId);
+                        if (compraDe1Procudto.cantidad > cantidad)
                         {
-                            Console.WriteLine(errorMessage);
+                            resultado = ventaBusiness.CrearVenta(productoId, cantidad, out errorMessage);
+
+                            if (!string.IsNullOrEmpty(errorMessage))
+                            {
+                                Console.WriteLine(errorMessage);
+                            }
+                            else
+                            {
+                                Console.WriteLine(resultado);
+                            }
                         }
                         else
                         {
-                            Console.WriteLine(resultado);
+                            Console.WriteLine("Stock de insuficiente");
                         }
                     }
                     else
                     {
-                        Console.WriteLine("Stock de insuficiente");
+                        Console.WriteLine("Venta inexistente");
                     }
+                   
 
                     break;
                 case 11:
                     Console.Clear();
                     Console.WriteLine("Obtener Venta");
-                    Console.Write("\nIngrese Id de la compra: ");
+                    Console.Write("\nIngrese Id de la Venta: ");
                     int VentaId = int.Parse(Console.ReadLine());
                     var venta = ventaBusiness.ObtenerVentaBusiness(VentaId);
                     if (venta != null)
@@ -500,6 +522,20 @@ static void Menu()
 
                     break;
                 case 14:
+                    Console.Clear();
+                    Console.WriteLine("Eliminar una Compra");
+                    Console.WriteLine("Ingrese id de la Compra");
+                    compraId = int.Parse(Console.ReadLine());
+                    compraBusiness.EliminarCompraBusiness(compraId);
+                    break;
+                case 15:
+                    Console.Clear();
+                    Console.WriteLine("Eliminar una Venta");
+                    Console.WriteLine("Ingrese id de la Venta");
+                    VentaId = int.Parse(Console.ReadLine());
+                    ventaBusiness.EliminarVentaBusiness(VentaId);
+                    break;
+                case 16:
                     Console.Clear();
                     Console.WriteLine("Saliendo del programa...");
                     Environment.Exit(0);

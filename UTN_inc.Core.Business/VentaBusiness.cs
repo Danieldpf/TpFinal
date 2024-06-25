@@ -76,5 +76,10 @@ namespace UTN_inc.Core.Business
         {
             _ventaRepository.EliminarVentaRepo(venta);
         }
+
+        public void EliminarVentaBusiness(int ventaId)
+        {
+            _ventaRepository.EliminarVentaRepo(ventaId);
+        }
     }
 }

@@ -33,7 +33,7 @@ namespace WebUTN_Inc.Controllers
         }
 
 
-        public class InputVentaModelo// modelo de los datos
+        public class InputVentaModelo// modelo de los datos // DTO
         {
             public int IdProducto { get; set; }
             public int Cantidad { get; set; }
@@ -55,7 +55,6 @@ namespace WebUTN_Inc.Controllers
         {
 
             var listaProductosProcesados = new List<AyudaProductos>();
-            //var listaProductosProcesados = new List<string>();
             var listaProductos = _productoBusiness.GetAll();
 
             foreach (var producto in listaProductos.Data) {

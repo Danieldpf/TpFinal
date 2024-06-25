@@ -47,6 +47,7 @@ namespace UTN_inc.Core.DataEF
             }
         }
 
+        //Elimina compras de un usuario
         public void ComprasDeUnUsuarioDelete(int usuarioId)
         {
             using (var db = new UTN_incContext(_config))
@@ -87,7 +88,28 @@ namespace UTN_inc.Core.DataEF
 
         }
 
+        //Elimina compra individual
+        public void EliminarCompraRepo(int CompraiD)
+        {
+            using (var db = new UTN_incContext(_config))
+            {
+                var compra = (from c in db.compras
+                             where c.compraId == CompraiD
+                             select c).FirstOrDefault();
 
+                if (compra != null)
+                {
+                    db.compras.Remove(compra);
+                    db.SaveChanges();
+                }
+                else
+                {
+                    Console.WriteLine("Esa compra no existe");
+                    db.SaveChanges();
+                }
+
+            }
+        }
 
     }
 }

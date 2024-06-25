@@ -127,6 +127,9 @@
                 if (result.success) {
                     console.log("Compra realizada:", result.message);
                     alert("Compra realizada exitosamente.");
+                        
+                            location.reload();
+                        // 5000 ms = 5 segundos
                 } else {
                     console.error("Error en la compra:", result.message);
                     alert("Error: " + result.message);
