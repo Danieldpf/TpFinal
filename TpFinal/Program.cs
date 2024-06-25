@@ -137,7 +137,7 @@ static void Menu2()
                     Console.Clear();
                     Console.WriteLine("Creacion de usuario");
                     Console.WriteLine("\nIngrese Nombre del usuario: ");
-                    string nombre = Console.ReadLine();
+                    string nombre = Console.ReadLine().ToLower();
                     Console.WriteLine("\nIngrese Contraseña del usuario: ");
                     string contraseña = Console.ReadLine();
                     string contraSalt = GeneradorHashSalt.GenerarSalt(contraseña);
@@ -291,7 +291,7 @@ static void Menu()
                     Console.WriteLine("3. Agregar Producto");
                     Console.WriteLine("Ingrese los Datos del Producto\n");
                     Console.WriteLine("Nombre del Producto: ");
-                    string nombre = Console.ReadLine();
+                    string nombre = Console.ReadLine().ToLower();
                     Console.WriteLine("\nIngrese la ID de la Categoria que Corresponde: ");
                     GetAllCategoria(categoriaBusiness);
                     Console.WriteLine("\n");
@@ -453,7 +453,8 @@ static void Menu()
                     if (idCompra != null)
                     {
                         var compraDe1Procudto = compraBusiness.ObtenerCompraBusiness(idCompra.compraId);
-                        if (compraDe1Procudto.cantidad > cantidad)
+                       
+                        if (compraDe1Procudto.cantidad > cantidad && productoBusiness.GetProducto(compraDe1Procudto.productoId).Habilitado == true)
                         {
                             resultado = ventaBusiness.CrearVenta(productoId, cantidad, out errorMessage);
 
@@ -465,6 +466,10 @@ static void Menu()
                             {
                                 Console.WriteLine(resultado);
                             }
+                        }
+                        else if(productoBusiness.GetProducto(compraDe1Procudto.productoId).Habilitado == false)
+                        {
+                            Console.WriteLine("Producto deshabilitado");
                         }
                         else
                         {

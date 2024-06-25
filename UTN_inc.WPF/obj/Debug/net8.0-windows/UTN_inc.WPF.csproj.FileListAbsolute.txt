@@ -1,0 +1,581 @@
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.csproj.AssemblyReference.cache
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF_MarkupCompile.cache
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF_MarkupCompile.lref
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\TpFinal.deps.json
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\TpFinal.runtimeconfig.json
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\WebUTN_Inc.deps.json
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\WebUTN_Inc.runtimeconfig.json
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\appsettings.Development.json
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\appsettings.json
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\WebUTN_Inc.staticwebassets.runtime.json
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\WebUTN_Inc.exe
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\TpFinal.exe
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_Inc.Api.deps.json
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_Inc.Api.runtimeconfig.json
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_Inc.Api.exe
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.WPF.exe
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.WPF.deps.json
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.WPF.runtimeconfig.json
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.WPF.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.WPF.pdb
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Humanizer.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Build.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Build.Framework.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Features.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.DiaSymReader.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.NET.StringTools.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.OpenApi.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.Common.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.Configuration.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.DependencyResolver.Core.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.Frameworks.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.LibraryModel.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.Packaging.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.ProjectModel.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.Protocol.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.Versioning.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Reflection.MetadataLoadContext.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\af\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ar\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\az\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\bg\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\bn-BD\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\da\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\el\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fa\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fi-FI\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr-BE\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\he\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\hr\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\hu\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\hy\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\id\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\is\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko-KR\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ku\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\lv\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ms-MY\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\mt\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\nb\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\nb-NO\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\nl\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ro\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\sk\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\sl\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\sr\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\sr-Latn\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\sv\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\th-TH\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\uk\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\vi\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-CN\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Humanizer.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\TpFinal.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_Inc.Api.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.Business.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.Configuracion.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.DataEF.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.Entities.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\WebUTN_Inc.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\TpFinal.pdb
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_Inc.Api.pdb
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.Business.pdb
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.Configuracion.pdb
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.DataEF.pdb
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.Entities.pdb
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\WebUTN_Inc.pdb
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.g.resources
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.AssemblyInfoInputs.cache
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.AssemblyInfo.cs
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.csproj.CoreCompileInputs.cache
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.sourcelink.json
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc..967D8044.Up2Date
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\refint\UTN_inc.WPF.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.pdb
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.genruntimeconfig.cache
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\ref\UTN_inc.WPF.dll
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Compras.g.cs
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Registro.g.cs
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Ventas.g.cs
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Compras.baml
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Registro.baml
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Ventas.baml
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Agregar.g.cs
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Eliminar.g.cs
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Modificar.g.cs
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Agregar.baml
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Eliminar.baml
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Modificar.baml
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Login.g.cs
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Login.baml
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\CrearUsuario.g.cs
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\CrearUsuario.baml
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\EliminarUsuario.g.cs
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\EliminarUsuario.baml
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\VerUsuarios.g.cs
+C:\Users\Juanito\Desktop\Proyectos Visual Studio Code\C#\Trabajo Final\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\VerUsuarios.baml
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\TpFinal.deps.json
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\TpFinal.runtimeconfig.json
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\WebUTN_Inc.deps.json
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\WebUTN_Inc.runtimeconfig.json
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\appsettings.Development.json
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\appsettings.json
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\WebUTN_Inc.staticwebassets.runtime.json
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_Inc.Api.deps.json
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_Inc.Api.runtimeconfig.json
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\WebUTN_Inc.exe
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\TpFinal.exe
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_Inc.Api.exe
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.WPF.exe
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.WPF.deps.json
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.WPF.runtimeconfig.json
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.WPF.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.WPF.pdb
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Humanizer.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Razor.Language.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Build.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Build.Framework.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Elfie.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Features.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Razor.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Scripting.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.DiaSymReader.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.NET.StringTools.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.OpenApi.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\dotnet-aspnet-codegenerator-design.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.Common.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.Configuration.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.DependencyResolver.Core.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.Frameworks.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.LibraryModel.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.Packaging.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.ProjectModel.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.Protocol.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\NuGet.Versioning.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Reflection.MetadataLoadContext.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\af\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ar\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\az\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\bg\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\bn-BD\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\da\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\el\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fa\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fi-FI\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr-BE\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\he\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\hr\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\hu\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\hy\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\id\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\is\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko-KR\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ku\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\lv\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ms-MY\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\mt\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\nb\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\nb-NO\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\nl\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ro\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\sk\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\sl\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\sr\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\sr-Latn\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\sv\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\th-TH\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\uk\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\uz-Latn-UZ\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\vi\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-CN\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Humanizer.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\TpFinal.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_Inc.Api.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.Business.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.Configuracion.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.DataEF.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.Entities.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\WebUTN_Inc.dll
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\TpFinal.pdb
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_Inc.Api.pdb
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.Business.pdb
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.Configuracion.pdb
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.DataEF.pdb
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\UTN_inc.Core.Entities.pdb
+D:\TpFinal\UTN_inc.WPF\bin\Debug\net8.0-windows\WebUTN_Inc.pdb
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.csproj.AssemblyReference.cache
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Agregar.g.cs
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Compras.g.cs
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\CrearUsuario.g.cs
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Eliminar.g.cs
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\EliminarUsuario.g.cs
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Login.g.cs
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Modificar.g.cs
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Registro.g.cs
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Ventas.g.cs
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\VerUsuarios.g.cs
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\App.g.cs
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF_MarkupCompile.cache
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF_MarkupCompile.lref
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Agregar.baml
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Compras.baml
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\CrearUsuario.baml
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Eliminar.baml
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\EliminarUsuario.baml
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Login.baml
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\MainWindow.baml
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Modificar.baml
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Registro.baml
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\Ventas.baml
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\VerUsuarios.baml
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.g.resources
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.AssemblyInfoInputs.cache
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.AssemblyInfo.cs
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.csproj.CoreCompileInputs.cache
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc..967D8044.Up2Date
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.dll
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\refint\UTN_inc.WPF.dll
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.pdb
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\UTN_inc.WPF.genruntimeconfig.cache
+D:\TpFinal\UTN_inc.WPF\obj\Debug\net8.0-windows\ref\UTN_inc.WPF.dll

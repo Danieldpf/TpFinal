@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUTN_Inc", "..\WebUTN_Inc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTN_inc.Core.Configuracion", "..\UTN_inc.Core.Configuracion\UTN_inc.Core.Configuracion.csproj", "{1AA2F347-E2D9-4AD9-9CDF-044ED2DC8959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTN_Inc.Api", "..\UTN_Inc.Api\UTN_Inc.Api.csproj", "{9F6244AB-5032-4EAD-AE10-35230E63D3A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTN_Inc.Api", "..\UTN_Inc.Api\UTN_Inc.Api.csproj", "{9F6244AB-5032-4EAD-AE10-35230E63D3A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTN_inc.WPF", "..\UTN_inc.WPF\UTN_inc.WPF.csproj", "{62D310A6-04AC-4C53-8074-0081C8F8FD25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{9F6244AB-5032-4EAD-AE10-35230E63D3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F6244AB-5032-4EAD-AE10-35230E63D3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F6244AB-5032-4EAD-AE10-35230E63D3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D310A6-04AC-4C53-8074-0081C8F8FD25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D310A6-04AC-4C53-8074-0081C8F8FD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D310A6-04AC-4C53-8074-0081C8F8FD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D310A6-04AC-4C53-8074-0081C8F8FD25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,28 @@
+﻿<Window x:Class="UTN_inc.WPF.Modificar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UTN_inc.WPF"
+        mc:Ignorable="d"
+        Icon="Assets/pepito.ico"
+        WindowStartupLocation="CenterScreen"
+        Title="Modificar" Height="240" Width="375">
+
+    <Grid Background="Wheat">
+
+        <TextBlock HorizontalAlignment="Left" Margin="30,20,0,0" TextWrapping="Wrap" Text="ID:" VerticalAlignment="Top" Width="100"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,50,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top" Width="100"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,80,0,0" TextWrapping="Wrap" Text="Categoria:" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="textIdBusqueda" HorizontalAlignment="Left" Margin="100,20,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textNombreBusqueda" HorizontalAlignment="Left" Margin="100,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textCategoriaBusqueda" HorizontalAlignment="Left"  Margin="100,80,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Image Source="/pepito.jpg" HorizontalAlignment="Left" Height="98" Margin="250,40,0,0" VerticalAlignment="Top" Width="90"/>
+        <Button Content="Modificar" HorizontalAlignment="Left" Width="100" Margin="100,140,0,0" VerticalAlignment="Top" Click="Button_Modificar"/>
+        <CheckBox x:Name="checkBusqueda" Content="Habilitado" HorizontalAlignment="Left" Margin="100,110,0,0" VerticalAlignment="Top"/>
+        <Button Content="Atras" HorizontalAlignment="Left" Width="100" Margin="100,170,0,0" VerticalAlignment="Top" Click="Button_Atras"/>
+
+    </Grid>
+
+
+</Window>

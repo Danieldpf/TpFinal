@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\pepito.ico" />
+    <None Remove="pepito.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TpFinal\TpFinal.csproj" />
+    <ProjectReference Include="..\UTN_Inc.Api\UTN_Inc.Api.csproj" />
+    <ProjectReference Include="..\UTN_inc.Core.Business\UTN_inc.Core.Business.csproj" />
+    <ProjectReference Include="..\UTN_inc.Core.Configuracion\UTN_inc.Core.Configuracion.csproj" />
+    <ProjectReference Include="..\UTN_inc.Core.DataEF\UTN_inc.Core.DataEF.csproj" />
+    <ProjectReference Include="..\UTN_inc.Core.Entities\UTN_inc.Core.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\pepito.ico" />
+    <Resource Include="pepito.jpg" />
+  </ItemGroup>
+
+</Project>

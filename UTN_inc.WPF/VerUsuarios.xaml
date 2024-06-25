@@ -1,0 +1,41 @@
+﻿<Window x:Class="UTN_inc.WPF.VerUsuarios"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UTN_inc.WPF"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Icon="Assets/pepito.ico"
+        Title="Usuarios" Height="450" Width="300">
+
+    <Grid Background="LightGray">
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+
+
+        </Grid.RowDefinitions>
+
+        <ListView x:Name="listViewUsuarios" Width="300" Background="Wheat" Grid.Row="1">
+
+            <ListView.View>
+
+                <GridView>
+
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding UsuarioId}" Width="80"/>
+                    <GridViewColumn Header="Nombre" DisplayMemberBinding="{Binding Nombre}" Width="220"/>
+
+                </GridView>
+
+            </ListView.View>
+
+        </ListView>
+
+        <Button Content="Atras" HorizontalAlignment="Right" Width="100" VerticalAlignment="Top" Click="Button_Salir" Background="Wheat"/>
+
+    </Grid>
+    
+</Window>
